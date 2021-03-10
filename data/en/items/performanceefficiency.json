@@ -34,8 +34,11 @@
                      ],
         "id":  "fd3a7975-91c0-4520-94db-639db35469f0",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "performanceefficiency",
+                     "costoptimization",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -53,8 +56,10 @@
         "context":  "By default, Windows Defender antivirus is installed on Windows Server 2016 and 2019. To reduce any performance impact and resource consumption overhead incurred by Windows Defender, and if your security policies allow you to exclude processes and paths for open-source software, you can [exclude](https://docs.microsoft.com/azure/service-fabric/service-fabric-best-practices-security#windows-defender) the Service Fabric executables from Defender scans.",
         "id":  "2a534a68-03bf-4a81-8790-131b7db44931",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "performanceefficiency",
+                     "all"
                  ],
         "priority":  "Medium"
     }

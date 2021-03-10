@@ -33,8 +33,9 @@
                      ],
         "id":  "54bc260e-e703-4304-85c7-9b13475a817c",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -74,8 +75,9 @@
                      ],
         "id":  "3db682c1-efa8-4914-a000-1f40257d4916",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -92,8 +94,9 @@
         "context":  "Scheduled Events is an [Azure Metadata Service](https://docs.microsoft.com/azure/virtual-machines/windows/scheduled-events) that gives your application time to prepare for virtual machine (VM) maintenance. It provides information about upcoming maintenance events (for example, reboot) so that your application can prepare for them and limit disruption.",
         "id":  "ed27f3de-ba3f-4ee1-a157-01cae32e7d68",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -116,8 +119,9 @@
                      ],
         "id":  "b9f9cb29-51a1-4b9e-b3e4-c4d07fc13610",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -134,8 +138,9 @@
         "context":  "Platform logs provide detailed diagnostic and auditing information for Azure resources and the Azure platform they depend on. See [Overview of Azure platform logs](https://docs.microsoft.com/azure/azure-monitor/platform/platform-logs-overview) for more.",
         "id":  "3d5a6317-b909-4abd-a785-b0ea3d11aa7c",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -152,8 +157,9 @@
         "context":  "An appropriate threshold for resource unavailability must be set to minimize signal to noise ratios so that transient faults do not generate an alert. For example, configuring a virtual machine alert with an unavailability threshold of 1 minute before an alert is triggered. See [Resource Health Alerts](https://docs.microsoft.com/azure/service-health/resource-health-alert-arm-template-guide) for more.",
         "id":  "c62477e9-c001-4455-b5c8-ef0aa00345a2",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -169,8 +175,9 @@
         "title":  "To ensure application scalability while navigating within disk sizing thresholds, it is highly recommended that applications be installed on data disks rather than the OS disk.",
         "id":  "ee8fe2a0-cf4a-4e95-8bbe-5bffa15d18b3",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -186,8 +193,9 @@
         "title":  "To identify resiliency risks to existing compute resources and support continuous compliance for new resources within a customer tenant, it is recommended that Azure Policy and Azure Resource Graph be used to Audit the use of non-resilient deployment configurations.",
         "id":  "eb900a65-7654-4de4-b94a-c15a17bbc5dc",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -210,8 +218,9 @@
                      ],
         "id":  "a2149079-2030-42c2-ad52-f8d48a05dbae",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -228,8 +237,9 @@
         "code":  "Resources\n| where \n    type =~ \u0027Microsoft.Compute/availabilitySets\u0027\n| where \n    tags != \u0027{\"Skip\":\"\"}\u0027\n| where \n\tarray_length(properties.virtualMachines) \u003c= 1\n| where\n\tproperties.platformFaultDomainCount \u003c= 1\n",
         "id":  "d32210eb-5593-4063-8874-aa5548abe857",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -246,8 +256,9 @@
         "context":  "[Audit VM/VMSS Standalone Instances](../src/compute/policydefinition_Audit-VMStandaloneInstances.json)",
         "id":  "3e7a0387-84b5-462c-9d7f-a65e5004cc5b",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -264,8 +275,9 @@
         "context":  "[Audit Availability Sets With Single Instances](../src/compute/policydefinition_Audit-AvailabilitySetSingleInstances.json)",
         "id":  "49b5740c-4e69-474b-a307-efcce17df647",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -291,8 +303,9 @@
                      ],
         "id":  "5af429ed-e587-488c-a3c1-f43601263dcf",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -321,8 +334,9 @@
                      ],
         "id":  "56d0df42-f4db-4ff5-8420-b8d286b9fe5a",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -343,8 +357,8 @@
                      ],
         "id":  "7161196a-ca55-4af6-8063-7e4448747365",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -386,8 +400,9 @@
                      ],
         "id":  "a82b005f-9cd9-4116-9a8a-a1782c0dd554",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -403,8 +418,9 @@
         "title":  "Use a template based deployment using ARM, Terraform, Ansible and others only. Make sure that all deployments are repeatable and traceable and stored in a sourcecode repo. Can be combined with GitOps.",
         "id":  "2df1b42d-0571-4dfc-9d0c-544a31bad7e2",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -420,8 +436,9 @@
         "title":  "Modifying resources in the [node resource group (ie - \u0027MC_\u0027)](https://docs.microsoft.com/azure/aks/faq#why-are-two-resource-groups-created-with-aks) is not recommended and should only be done at [cluster creation time](https://docs.microsoft.com/azure/aks/faq#can-i-provide-my-own-name-for-the-aks-node-resource-group), or with assistance from Azure Support.",
         "id":  "d3210d5b-ca53-4e76-8b66-080df4bf1424",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -460,8 +477,11 @@
                      ],
         "id":  "fd3a7975-91c0-4520-94db-639db35469f0",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "performanceefficiency",
+                     "costoptimization",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -521,8 +541,10 @@
                      ],
         "id":  "79a0b7f7-61b4-4c37-9516-da4859e55ec5",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "security",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -539,8 +561,9 @@
         "context":  "Azure CNI is required for specific scenarios like for example Windows-based node pools, specific networking requirements and Kubernetes Network Policies. See [Kubenet vs. Azure CNI](https://docs.microsoft.com/azure/aks/concepts-network#compare-network-models) for more information.",
         "id":  "68ac563f-498d-47d2-b1b1-b7373b2bc71b",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "security",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -556,8 +579,9 @@
         "title":  "Use [Azure Network Policies](https://docs.microsoft.com/azure/aks/use-network-policies) or Calico to control traffic between pods. **Requires CNI Network Plug-in.**",
         "id":  "743db340-c580-4d54-9099-0737f6509540",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "security",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -585,8 +609,10 @@
                      ],
         "id":  "a1d08352-86ee-470e-a6fe-433e7989b377",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "security",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -602,8 +628,9 @@
         "title":  "Define [Pod resource requests and limits](https://docs.microsoft.com/azure/aks/developer-best-practices-resource-management#define-pod-resource-requests-and-limits) in application deployment manifests.",
         "id":  "1ee847a3-2b5f-4313-8bda-f45d1fe63739",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "security",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -625,8 +652,9 @@
                      ],
         "id":  "bccf2355-8573-4ab0-aff8-2e201743b7ae",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -653,8 +681,9 @@
                      ],
         "id":  "196a2984-e487-462f-961e-6ebbdf7e539c",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -670,8 +699,8 @@
         "code":  "Resources\n| where type =~ \u0027Microsoft.ContainerService/managedClusters\u0027\n| where isnull(zones)\n",
         "id":  "6bd035d8-9099-42c8-8602-e3c644f94e7c",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -687,8 +716,8 @@
         "code":  "Resources\n| where type =~ \u0027Microsoft.ContainerService/managedClusters\u0027\n| where properties.agentPoolProfiles[0].type != \u0027VirtualMachineScaleSets\u0027\n| project name, location, resourceGroup, subscriptionId, properties.agentPoolProfiles[0].type\n",
         "id":  "1b2443fb-42ac-4201-bd77-b8ee45b3a8de",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -704,8 +733,8 @@
         "code":  "Resources\n| where type =~ \u0027Microsoft.ContainerService/managedClusters\u0027\n| project name, location, resourceGroup, subscriptionId, properties.networkProfile.networkPlugin\n",
         "id":  "169d2464-29f0-4c67-9078-af5821c1d3bc",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -722,8 +751,9 @@
         "code":  "Resources\n| where type =~ \u0027Microsoft.ContainerService/managedClusters\u0027\n| where isnull(identity)\n",
         "id":  "0b794b38-0c3f-485e-92c2-85c27a5c1529",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -741,8 +771,10 @@
         "code":  "Resources\n| where type =~ \u0027Microsoft.ContainerService/managedClusters\u0027\n| where properties.enableRBAC == false\n",
         "id":  "a4f198dd-ed19-40d9-9358-a76208cb76e5",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "security",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -759,8 +791,9 @@
         "context":  "[SLA for App Service](https://azure.microsoft.com/support/legal/sla/app-service/v1_4/)",
         "id":  "c1d27f4f-1820-422a-9616-00ee95d45d30",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -822,8 +855,9 @@
                      ],
         "id":  "2f442ad4-abbe-47e3-b989-6cc7d50fae5a",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -839,8 +873,8 @@
         "context":  "Configuring ASE to use Availability Zones by deploying ASE across specific zones ensures applications can continue to operate even in the event of a data center level failure. This provides excellent redundancy without requiring multiple deployments in different Azure regions.",
         "id":  "a5e9a775-1b06-497b-b740-30a74f0b2d2a",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -857,8 +891,9 @@
         "context":  "One common ASE pitfall occurs when ASE is deployed into a subnet with an IP Address space that is too small to support future expansion. In such cases, ASE can be left unable to scale without redeploying the entire environment into a larger subnet. It is highly recommended that adequate IP addresses be used to support either the maximum number of workers or the largest number considered workloads will need. A single ASE cluster can scale to 201 instance, which would require a /24 subnet.",
         "id":  "fd6cdc57-1446-44fa-b1dd-a666780e9234",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -875,8 +910,9 @@
         "context":  "If lower environments are used for staging or testing, consideration should be given to configuring these environments to receive updates sooner than the production environment. This will help to identify any conflicts or problems with an update and provides a window to mitigate issues before they reach the production environment.If multiple load balanced (zonal) production deployments are used, upgrade preference can also be used to protect the broader environment against issues from platform upgrades.",
         "id":  "135f6e7d-f3be-43da-b2c9-3649aaac659a",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -893,8 +929,9 @@
         "context":  "Scaling ASE instances vertically or horizontally currently takes 30-60 minutes as new private instances need to be provisioned. It is highly recommended that effort be invested up-front to plan for scaling during spikes in load or transient failure scenarios.",
         "id":  "df38bfa2-88c4-4822-8f81-eb7ae4d656fd",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -927,8 +964,9 @@
                      ],
         "id":  "d0a55ccb-7ab5-4317-a378-dc61107adea4",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -945,8 +983,9 @@
         "code":  "Resources\n| where type == \"microsoft.web/serverfarms\" and properties.computeMode == \u0027Dedicated\u0027\n| where sku.capacity == 1\n",
         "id":  "8dad4bde-290d-468c-96ce-a768db044590",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -962,8 +1001,9 @@
         "title":  "[The Ultimate Guide to Running Healthy Apps in the Cloud](https://azure.github.io/AppService/2020/05/15/Robust-Apps-for-the-cloud.html)",
         "id":  "b25732b8-65ff-437a-8656-3d030d6e73d5",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -978,8 +1018,8 @@
         "title":  "Azure Service Fabric does not provide its own SLA. The availability of Service Fabric clusters is based on the underlying Virtual Machine and Storage resources used.",
         "id":  "6d098ed1-da6d-419e-86ce-c709da627b6e",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -995,8 +1035,8 @@
         "context":  "[Service Fabric](https://azure.microsoft.com/support/legal/sla/service-fabric/v1_0/)[Virtual Machine Scale Set](https://azure.microsoft.com/support/legal/sla/virtual-machine-scale-sets/v1_1/)",
         "id":  "f36dc197-3550-4ef4-a70a-b5ef8153f75a",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -1012,8 +1052,9 @@
         "title":  "Review the [Service Fabric production readiness checklist](https://docs.microsoft.com/azure/service-fabric/service-fabric-production-readiness-checklist)",
         "id":  "6e3950db-6aa4-43c7-ba2a-e55f74e5634b",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -1030,8 +1071,9 @@
         "context":  "This will ensure the Azure infrastructure communicates with the Service Fabric controller on scheduling reboots, etc.",
         "id":  "552edd84-c3c9-424a-b3c3-d9f927f99cd1",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -1048,8 +1090,9 @@
         "context":  "This means deploying a primary NodeType (and by extension a VM ScaleSet) to each AZ. This will ensure that the Service Fabric system services are spread across zones.",
         "id":  "e3a59859-1569-4514-a41a-5ff58b73ae10",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -1065,8 +1108,8 @@
         "context":  "API Management can [integrate](https://docs.microsoft.com/azure/service-fabric/service-fabric-api-management-overview) with Service Fabric directly.",
         "id":  "e3b1d5c5-1454-4fa5-9684-ee35be20e1a1",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -1082,8 +1125,9 @@
         "title":  "For production scenarios, use the Standard tier load balancer. The Basic SKU is free, but does not have an SLA.",
         "id":  "2d03a956-1655-4bf4-99d6-cce0658363b6",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -1099,8 +1143,9 @@
         "title":  "Keep the different node types and gateway services on different subnets.",
         "id":  "f2d0794d-4b30-44aa-b26e-59d0c2423275",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -1118,8 +1163,10 @@
         "context":  "For example, you may have an API Management instance (one subnet), a frontend subnet (exposing a website directly) and a backend subnet (accessible only to frontend), each implemented on a different VM Scale Set.",
         "id":  "2e8b9298-cd09-49e2-83a0-be8363ee2866",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "security",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -1135,8 +1182,9 @@
         "title":  "When using secrets (connection strings, passwords) in SF services, either retrieve them directly from Key Vault at runtime or use the [Service Fabric Secrets Store](https://docs.microsoft.com/azure/service-fabric/service-fabric-application-secret-store)",
         "id":  "fa0d4cc3-8f9b-4f0b-9a63-8e24dc7b8f25",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -1153,8 +1201,9 @@
         "context":  "This certificate is deployed to the VM scaleset nodes to decrypt the secret values. When using this approach, ensure that secrets are inserted and encrypted at release time. Using this approach means that changing the secrets requires a deployment. Make sure your key-rotation process is fully automated to do this without downtime.",
         "id":  "0d709a25-b057-42e3-8823-2b6e84514baa",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -1170,8 +1219,9 @@
         "title":  "Do not use self-signed certificates for production scenarios. Either provision a certificate through your PKI or use a public certificate authority.",
         "id":  "3f52749e-84d3-49a1-8741-e0444ef5ceed",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -1187,8 +1237,9 @@
         "title":  "Deploy certificates by adding them to Azure Keyvault and referencing the URI in your deployment.",
         "id":  "b6a3c08a-3b4f-46cc-8590-1bbb799e0e84",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -1205,8 +1256,9 @@
         "context":  "For example, Key Vault offers a feature that sends an email when x% of the certificate\u0027s lifespan has elapsed.",
         "id":  "0c153a9a-07cd-4c3c-9003-274bba1322ae",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -1222,8 +1274,9 @@
         "title":  "Enable Azure Active Directory integration for your cluster to ensure users can access Service Fabric Explorer using their AAD credentials. Do not distribute the cluster certificate among users to access Explorer. ",
         "id":  "400ab4ef-85de-45d0-b59e-0dfc912219b0",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
                  ],
         "priority":  "Medium"
     },
@@ -1241,8 +1294,10 @@
         "context":  "By default, Windows Defender antivirus is installed on Windows Server 2016 and 2019. To reduce any performance impact and resource consumption overhead incurred by Windows Defender, and if your security policies allow you to exclude processes and paths for open-source software, you can [exclude](https://docs.microsoft.com/azure/service-fabric/service-fabric-best-practices-security#windows-defender) the Service Fabric executables from Defender scans.",
         "id":  "2a534a68-03bf-4a81-8790-131b7db44931",
         "tags":  [
-                     "all",
-                     "compute"
+                     "reliability",
+                     "operationalexcellence",
+                     "performanceefficiency",
+                     "all"
                  ],
         "priority":  "Medium"
     }
