@@ -4,6 +4,15 @@
     p.label__title= item.title
     p.label__description #{item.context}
 
+    if item.children
+      .c-checklist__documentation
+        h4= translation.SECTION_DOCUMENTATION
+        ul.documentation__list
+          each child, i in item.children
+            li
+              if child.title
+                p.c-checklist__text= child.title
+
   if item.tools || item.children || item.code || item.video || item.recommendation
     .c-checklist__details.js-details
 
@@ -15,15 +24,6 @@
           .c-checklist__code__loader.js-loader
             .code-icons
           .c-checklist__code__github.js-code(data-code-url=`${item.code}`)
-
-      if item.children
-        .c-checklist__documentation
-          h4= translation.SECTION_DOCUMENTATION
-          ul.documentation__list
-            each child, i in item.children
-              li
-                if child.title
-                  p.c-checklist__text= child.title
 
       if item.tools
         .c-checklist__tools

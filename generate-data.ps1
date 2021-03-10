@@ -1,7 +1,4 @@
-          
-          
-          
-          
+
 $AllItems = @()
 Get-ChildItem -Path "input/" | where { $_.Name -match ".data.json$" } | % {
     Get-Content -Path $_.FullName | ConvertFrom-Json | %{
