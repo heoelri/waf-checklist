@@ -12,15 +12,28 @@ block main
     if _items !== undefined
 
       +checklist-section({
-        dataSection: _items.servicelenscompute,
-        sectionTitle: "Service Lens Compute"
+        dataSection: _items.operationalexcellence,
+        sectionTitle: "Operational Excellence"
       })
 
       +checklist-section({
-        dataSection: _items.applicationlens,
-        sectionTitle: "Application Lens"
+        dataSection: _items.costoptimization,
+        sectionTitle: "Cost Optimization"
       })
 
+      +checklist-section({
+        dataSection: _items.reliability,
+        sectionTitle: "Reliability"
+      })
 
+      +checklist-section({
+        dataSection: _items.security,
+        sectionTitle: "Security"
+      })
+
+      +checklist-section({
+        dataSection: _items.performanceefficiency,
+        sectionTitle: "Performance Efficiency"
+      })
 
   include components/s-section-bottom
