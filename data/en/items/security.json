@@ -1,0 +1,182 @@
+[
+    {
+        "type":  "Configuration Recommendations",
+        "pillars":  [
+                        "reliability",
+                        "operationalexcellence",
+                        "security"
+                    ],
+        "lens":  "service",
+        "category":  "Compute",
+        "subCategory":  "Azure Kubernetes Service (AKS)",
+        "title":  "Security Guidelines",
+        "children":  [
+                         {
+                             "title":  "Use [Managed Identities](https://docs.microsoft.com/azure/aks/use-managed-identity) to avoid having to manage and rotate service principles.",
+                             "id":  "a2e4bbd1-40ae-447b-bec4-787a05acfae4"
+                         },
+                         {
+                             "title":  "Utilize [AAD integration](https://docs.microsoft.com/azure/aks/managed-aad) to take advantage of centralized account management and passwords, application access management, and identity protection.",
+                             "id":  "adf99fd3-3b3a-4898-8841-12f32edb7525"
+                         },
+                         {
+                             "title":  "Use Kubernetes RBAC with AAD for [least privilege](https://docs.microsoft.com/azure/aks/azure-ad-rbac) and minimize granting administrator privileges to protect configuration and secrets access.",
+                             "id":  "e153ad12-5191-4660-a167-aca5765d2dd0"
+                         },
+                         {
+                             "title":  "Limit access to [Kubernetes cluster configuration](https://docs.microsoft.com/azure/aks/control-kubeconfig-access) file with Azure role-based access control.",
+                             "id":  "c7834127-e661-4f44-aa75-12c9631fcdd4"
+                         },
+                         {
+                             "title":  "Limit access to [actions that containers can perform](https://docs.microsoft.com/azure/aks/developer-best-practices-pod-security#secure-pod-access-to-resources). Provide the least number of permissions, and avoid the use of root / privileged escalation.",
+                             "id":  "25cca440-2105-430a-90cc-9e792a2d0b14"
+                         },
+                         {
+                             "title":  "Evaluate the use of the built-in [AppArmor security module](https://docs.microsoft.com/azure/aks/operator-best-practices-cluster-security#app-armor) to limit actions that containers can perform such as read, write, or execute, or system functions such as mounting filesystems.",
+                             "id":  "57aa3f55-c5c3-4cc6-9b8b-e60aab337227"
+                         },
+                         {
+                             "title":  "Evaluate the use of the [seccomp (secure computing)](https://docs.microsoft.com/azure/aks/operator-best-practices-cluster-security#secure-computing). seccomp works at the process level and allows you to limit the process calls that containers can perform.",
+                             "id":  "508199dc-62d5-47b6-8d25-34e6fe34b70d"
+                         },
+                         {
+                             "title":  "Use [Pod Identities](https://docs.microsoft.com/azure/aks/operator-best-practices-identity#use-pod-identities) and [Secrets Store CSI Driver](https://github.com/Azure/secrets-store-csi-driver-provider-azure#usage) with Azure Key Vault to protect secrets, certificates, and connection strings.",
+                             "id":  "297b026b-fd4b-474a-a3c2-044d8f4f1ffc"
+                         },
+                         {
+                             "title":  "Use [Azure Security Center](https://docs.microsoft.com/azure/security-center/defender-for-kubernetes-introduction) to provide AKS recommendations.",
+                             "id":  "559e216a-de4e-4acd-b732-ac828a255395"
+                         },
+                         {
+                             "title":  "Secure clusters and pods with Azure Policy",
+                             "context":  "[Azure Policy](https://docs.microsoft.com/azure/aks/use-pod-security-on-azure-policy) can help to apply at-scale enforcements and safeguards on your clusters in a centralized, consistent manner. It can also control what functions pods are granted and if anything is running against company policy. This access is defined through built-in policies provided by the [Azure Policy Add-on for AKS](https://docs.microsoft.com/azure/governance/policy/concepts/policy-for-kubernetes). By providing additional control over the security aspects of your pod\u0027s specification, like root privileges, enables stricter security adherence and visibility into what is deployed in your cluster. If a pod does not meet conditions specified in the policy, Azure Policy can disallow the pod to start or flag a violation.",
+                             "id":  "f9e315e0-9c58-4551-a945-995713acac39"
+                         }
+                     ],
+        "id":  "79a0b7f7-61b4-4c37-9516-da4859e55ec5",
+        "tags":  [
+                     "all",
+                     "Azure Kubernetes Service (AKS)"
+                 ],
+        "priority":  "medium"
+    },
+    {
+        "type":  "Configuration Recommendations",
+        "pillars":  [
+                        "reliability",
+                        "security"
+                    ],
+        "lens":  "service",
+        "category":  "Compute",
+        "subCategory":  "Azure Kubernetes Service (AKS)",
+        "title":  "Ensure proper selection of network plugin based on network requirements and cluster sizing.",
+        "context":  "Azure CNI is required for specific scenarios like for example Windows-based node pools, specific networking requirements and Kubernetes Network Policies. See [Kubenet vs. Azure CNI](https://docs.microsoft.com/azure/aks/concepts-network#compare-network-models) for more information.",
+        "id":  "68ac563f-498d-47d2-b1b1-b7373b2bc71b",
+        "tags":  [
+                     "all",
+                     "Azure Kubernetes Service (AKS)"
+                 ],
+        "priority":  "medium"
+    },
+    {
+        "type":  "Configuration Recommendations",
+        "pillars":  [
+                        "reliability",
+                        "security"
+                    ],
+        "lens":  "service",
+        "category":  "Compute",
+        "subCategory":  "Azure Kubernetes Service (AKS)",
+        "title":  "Use [Azure Network Policies](https://docs.microsoft.com/azure/aks/use-network-policies) or Calico to control traffic between pods. **Requires CNI Network Plug-in.**",
+        "id":  "743db340-c580-4d54-9099-0737f6509540",
+        "tags":  [
+                     "all",
+                     "Azure Kubernetes Service (AKS)"
+                 ],
+        "priority":  "medium"
+    },
+    {
+        "type":  "Configuration Recommendations",
+        "pillars":  [
+                        "reliability",
+                        "operationalexcellence",
+                        "security"
+                    ],
+        "lens":  "service",
+        "category":  "Compute",
+        "subCategory":  "Azure Kubernetes Service (AKS)",
+        "title":  "Utilize a central monitoring tool (eg. - [Azure Monitor and App Insights](https://docs.microsoft.com/azure/azure-monitor/insights/container-insights-overview)) to centrally collect metrics, logs, and diagnostics for troubleshooting purposes.",
+        "children":  [
+                         {
+                             "title":  "Enable and review [Kubernetes master node logs](https://docs.microsoft.com/azure/aks/view-master-logs).",
+                             "id":  "3b65b16f-521d-40cf-b203-07acc6c4ec91"
+                         },
+                         {
+                             "title":  "Configure scraping of Prometheus metrics with Azure Monitor for containers",
+                             "context":  "Azure Monitor for containers provides a seamless onboarding experience to collect Prometheus metrics. See [Configure scraping of Prometheus metrics with Azure Monitor for containers](https://docs.microsoft.com/azure/azure-monitor/insights/container-insights-prometheus-integration) for more.",
+                             "id":  "0b7cb09f-b460-459c-9f30-bb5a930e999e"
+                         }
+                     ],
+        "id":  "a1d08352-86ee-470e-a6fe-433e7989b377",
+        "tags":  [
+                     "all",
+                     "Azure Kubernetes Service (AKS)"
+                 ],
+        "priority":  "medium"
+    },
+    {
+        "type":  "Configuration Recommendations",
+        "pillars":  [
+                        "reliability",
+                        "security"
+                    ],
+        "lens":  "service",
+        "category":  "Compute",
+        "subCategory":  "Azure Kubernetes Service (AKS)",
+        "title":  "Define [Pod resource requests and limits](https://docs.microsoft.com/azure/aks/developer-best-practices-resource-management#define-pod-resource-requests-and-limits) in application deployment manifests.",
+        "id":  "1ee847a3-2b5f-4313-8bda-f45d1fe63739",
+        "tags":  [
+                     "all",
+                     "Azure Kubernetes Service (AKS)"
+                 ],
+        "priority":  "medium"
+    },
+    {
+        "type":  "Supporting Source Artifacts",
+        "pillars":  [
+                        "reliability",
+                        "operationalexcellence",
+                        "security"
+                    ],
+        "lens":  "service",
+        "category":  "Compute",
+        "subCategory":  "Azure Kubernetes Service (AKS)",
+        "title":  "Query to identify AKS clusters that are **NOT using RBAC**:",
+        "code":  "Resources\n| where type =~ \u0027Microsoft.ContainerService/managedClusters\u0027\n| where properties.enableRBAC == false\n",
+        "id":  "a4f198dd-ed19-40d9-9358-a76208cb76e5",
+        "tags":  [
+                     "all",
+                     "Azure Kubernetes Service (AKS)"
+                 ],
+        "priority":  "medium"
+    },
+    {
+        "type":  "Configuration Recommendations",
+        "pillars":  [
+                        "reliability",
+                        "operationalexcellence",
+                        "security"
+                    ],
+        "lens":  "service",
+        "category":  "Compute",
+        "subCategory":  "Service Fabric",
+        "title":  "Apply Network Security Groups (NSG) to restrict traffic flow between subnets/node types. Ensure that the [correct ports](https://docs.microsoft.com/azure/service-fabric/service-fabric-best-practices-networking#cluster-networking) are opened for managing the cluster.",
+        "context":  "For example, you may have an API Management instance (one subnet), a frontend subnet (exposing a website directly) and a backend subnet (accessible only to frontend), each implemented on a different VM Scale Set.",
+        "id":  "2e8b9298-cd09-49e2-83a0-be8363ee2866",
+        "tags":  [
+                     "all",
+                     "Service Fabric"
+                 ],
+        "priority":  "medium"
+    }
+]

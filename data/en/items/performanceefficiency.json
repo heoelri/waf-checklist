@@ -1,0 +1,61 @@
+[
+    {
+        "type":  "Configuration Recommendations",
+        "pillars":  [
+                        "reliability",
+                        "operationalexcellence",
+                        "performanceefficiency",
+                        "costoptimization"
+                    ],
+        "lens":  "service",
+        "category":  "Compute",
+        "subCategory":  "Azure Kubernetes Service (AKS)",
+        "title":  "Scalability",
+        "children":  [
+                         {
+                             "title":  "Enable [cluster autoscaler](https://docs.microsoft.com/azure/aks/cluster-autoscaler) to automatically adjust the number of agent nodes in response to resource constraints.",
+                             "context":  "This ability to automatically scale up or down the number of nodes in your AKS cluster lets you run an efficient, cost-effective cluster.",
+                             "id":  "36a02822-19a3-4f9e-9895-3f3b1891ae23"
+                         },
+                         {
+                             "title":  "Consider using [Azure Spot VMs](https://docs.microsoft.com/azure/aks/spot-node-pool) for workloads that can handle interruptions, early terminations, or evictions. For example, workloads such as batch processing jobs, development and testing environments, and large compute workloads may be good candidates to be scheduled on a spot node pool.",
+                             "context":  "Using spot VMs for nodes with your AKS cluster allows you to take advantage of unutilized capacity in Azure at a significant cost savings.",
+                             "id":  "45029e3d-02e9-4bbb-88c7-42a965b8725e"
+                         },
+                         {
+                             "title":  "Utilize the [Horizontal pod autoscaler](https://docs.microsoft.com/azure/aks/concepts-scale#horizontal-pod-autoscaler) to adjust the number of pods in a deployment depending on CPU utilization or other select metrics.",
+                             "id":  "efa32f49-cc48-4cf1-b725-5a8faa72f227"
+                         },
+                         {
+                             "title":  "Separate workloads into different node pools and consider scaling user node pools to zero.",
+                             "context":  "Unlike System node pools that always require running nodes, User node pools allow you to scale to 0.",
+                             "id":  "6a985f79-6f75-4a60-a0ab-9dd80a5f11a3"
+                         }
+                     ],
+        "id":  "fd3a7975-91c0-4520-94db-639db35469f0",
+        "tags":  [
+                     "all",
+                     "Azure Kubernetes Service (AKS)"
+                 ],
+        "priority":  "medium"
+    },
+    {
+        "type":  "Configuration Recommendations",
+        "pillars":  [
+                        "reliability",
+                        "operationalexcellence",
+                        "performanceefficiency"
+                    ],
+        "lens":  "service",
+        "category":  "Compute",
+        "subCategory":  "Service Fabric",
+        "title":  "Exclude the Service Fabric processes from Windows Defender to improve performance.",
+        "context":  "By default, Windows Defender antivirus is installed on Windows Server 2016 and 2019. To reduce any performance impact and resource consumption overhead incurred by Windows Defender, and if your security policies allow you to exclude processes and paths for open-source software, you can [exclude](https://docs.microsoft.com/azure/service-fabric/service-fabric-best-practices-security#windows-defender) the Service Fabric executables from Defender scans.",
+        "id":  "2a534a68-03bf-4a81-8790-131b7db44931",
+        "tags":  [
+                     "all",
+                     "Service Fabric"
+                 ],
+        "priority":  "medium"
+    }
+]
