@@ -7,8 +7,11 @@
   if item.tools || item.documentation || item.code || item.video
     .c-checklist__details.js-details
 
-      if item.detail
-        p.c-checklist__text= item.detail
+      if item.context
+        p.c-checklist__text= item.context
+
+      if item.recommendation
+        p.c-checklist__text= item.recommendation
 
       if item.code
         .c-checklist__code
