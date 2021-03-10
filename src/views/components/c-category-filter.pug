@@ -19,12 +19,12 @@ aside.c-category-filter
     each title in categoryFilter
 
       //- Add uppercase in the first letter
-      - titleFilter = title.charAt(0).toUpperCase() + title.slice(1)
-      //titleFilter = title 
+      //- titleFilter = title.charAt(0).toUpperCase() + title.slice(1)
+      titleFilter = title 
 
       //- Slip and add a dash if the tag is more than 1 word
-      - dataFilter = title.split(' ').join('-')
-      //dataFilter = title
+      //- dataFilter = title.split(' ').join('-')
+      dataFilter = title
 
       //- Check if title is not empty before printing it
       if title != ''
