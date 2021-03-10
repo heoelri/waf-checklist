@@ -12,16 +12,8 @@
               if child.title
                 p.c-checklist__text= child.title
 
-  .c-tags
-    ul.c-tags__list
-      li.c-tags__item= item.category
-      li.c-tags__item= item.subCategory 
-
-  if item.tools || item.children || item.code || item.video || item.recommendation
+  if item.tools || item.code || item.video || item.recommendation
     .c-checklist__details.js-details
-
-      if item.recommendation
-        p.c-checklist__text= item.recommendation
 
       if item.code
         .c-checklist__code
@@ -46,14 +38,19 @@
               li
                 img.c-checklist__favicon(src="/img/icons/1x1.png" data-src=`https://www.google.com/s2/favicons?domain_url=${video.url}`, alt="")
                 a(href=`${video.url}`, target="_blank", rel="noopener noreferrer")= video.title
-      
+
       .c-tags
+        ul.c-tags__list
+          li.c-tags__item= item.id
+
+        ul.c-tags__list
+          li.c-tags__item= item.category
+          li.c-tags__item= item.subCategory 
+
         ul.c-tags__list
           each tag in item.tags
             if tag == 'all'
             else
               li.c-tags__item= tag.toUpperCase()
-
-      p.label__description #{item.id}
 
   
