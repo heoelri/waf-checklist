@@ -4,11 +4,8 @@
     p.label__title= item.title
     p.label__description #{item.context}
 
-  if item.tools || item.documentation || item.code || item.video || item.context || item.recommendation
+  if item.tools || item.documentation || item.code || item.video || item.recommendation
     .c-checklist__details.js-details
-
-      if item.context
-        p.c-checklist__text= item.context
 
       if item.recommendation
         p.c-checklist__text= item.recommendation
