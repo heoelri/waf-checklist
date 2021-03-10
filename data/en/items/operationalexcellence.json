@@ -1956,5 +1956,84 @@
                      "all"
                  ],
         "priority":  "Medium"
+    },
+    {
+        "type":  "Design Considerations",
+        "pillars":  [
+                        "reliability",
+                        "operationalexcellence"
+                    ],
+        "lens":  "service",
+        "category":  "Hybrid",
+        "subCategory":  "Azure Stack Hub",
+        "title":  "Microsoft does not provide an SLA for Azure Stack Hub because Microsoft does not have control over customer datacenter reliability, people, and processes.",
+        "id":  "6028ceae-8207-4601-b30d-ff3ee045a1bb",
+        "tags":  [
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
+                 ],
+        "priority":  "Medium"
+    },
+    {
+        "type":  "Design Considerations",
+        "pillars":  [
+                        "reliability",
+                        "operationalexcellence"
+                    ],
+        "lens":  "service",
+        "category":  "Hybrid",
+        "subCategory":  "Azure Stack Hub",
+        "title":  "Azure Stack Hub currently only supports a single Scale Unit (SU) within in a single Region, which can consist of between 4 and 16 servers that use Hyper-V failover clustering; each region serves as an independent Azure Stack Hub \"stamp\" with separate portal and API endpoints.",
+        "context":  "Azure Stack Hub does therefore **not support Availability Zones** as it currently consists only of a single \"region\" (aka a single physical location). High availability to cope with outages of a single location should be implemented by using two Azure Stack Hub instances deployed into different physical locations.",
+        "id":  "562dba61-e2c1-4623-8a91-752cc2baaf68",
+        "tags":  [
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
+                 ],
+        "priority":  "Medium"
+    },
+    {
+        "type":  "Configuration Recommendations",
+        "pillars":  [
+                        "reliability",
+                        "operationalexcellence"
+                    ],
+        "lens":  "service",
+        "category":  "Hybrid",
+        "subCategory":  "Azure Stack Hub",
+        "title":  "Treat Azure Stack Hub as a scale unit and deploy multiple instances to remove Azure Stack Hub as a single point of failure for encompassed workloads.",
+        "children":  [
+                         {
+                             "title":  "Deploy workloads in either an active-active or active-passive configuration across Azure Stack Hub stamps and/or Azure.",
+                             "id":  "b33d34ba-e9be-4011-88c8-d75f5d16de40"
+                         }
+                     ],
+        "id":  "7bce53c8-3617-416f-bfb8-2abeb0cf068d",
+        "tags":  [
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
+                 ],
+        "priority":  "Medium"
+    },
+    {
+        "type":  "Design Considerations",
+        "pillars":  [
+                        "reliability",
+                        "operationalexcellence"
+                    ],
+        "lens":  "service",
+        "category":  "Hybrid",
+        "subCategory":  "Azure Stack Hub",
+        "title":  "Apply general Azure configuration recommendations for all Azure Stack Hub services.",
+        "id":  "e26f72b8-f176-44e7-aa38-2c7366ed0f9f",
+        "tags":  [
+                     "reliability",
+                     "operationalexcellence",
+                     "all"
+                 ],
+        "priority":  "Medium"
     }
 ]

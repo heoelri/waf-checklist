@@ -4,7 +4,7 @@
     p.label__title= item.title
     p.label__description #{item.context}
 
-  if item.tools || item.documentation || item.code || item.video || item.recommendation
+  if item.tools || item.children || item.code || item.video || item.recommendation
     .c-checklist__details.js-details
 
       if item.recommendation
@@ -16,15 +16,16 @@
             .code-icons
           .c-checklist__code__github.js-code(data-code-url=`${item.code}`)
 
-      if item.documentation
+      if item.children
         .c-checklist__documentation
           h4= translation.SECTION_DOCUMENTATION
           ul.documentation__list
-            each documentation, i in item.documentation
+            each child, i in item.children
               li
-                if documentation.url && documentation.title
-                  img.c-checklist__favicon(src="/img/icons/1x1.png" data-src=`https://www.google.com/s2/favicons?domain_url=${documentation.url}`, alt="")
-                  a(href=`${documentation.url}`, target="_blank", rel="noopener noreferrer")= documentation.title
+                if child.title
+                  p.child.title
+                if child.code
+                  p.child.code
 
       if item.tools
         .c-checklist__tools
