@@ -4,11 +4,9 @@
 //- Loop to save each tags present in JSON into categoryFilter
 each item, i in _items
 
-  each category in item
-
-    //- Check if the filter tag already exist in the categoryFilter array
-    - if (categoryFilter.indexOf(category) === -1)
-      - categoryFilter.push(category)
+  //- Check if the filter tag already exist in the categoryFilter array
+  - if (categoryFilter.indexOf(item.category) === -1)
+    - categoryFilter.push(item.category)
 
 
 //- Filter code implementation
@@ -21,12 +19,12 @@ aside.c-category-filter
     each title in categoryFilter
 
       //- Add uppercase in the first letter
-      //- titleFilter = title.charAt(0).toUpperCase() + title.slice(1)
-      titleFilter = title 
+      - titleFilter = title.charAt(0).toUpperCase() + title.slice(1)
+      //titleFilter = title 
 
       //- Slip and add a dash if the tag is more than 1 word
-      //- dataFilter = title.split(' ').join('-')
-      dataFilter = title
+      - dataFilter = title.split(' ').join('-')
+      //dataFilter = title
 
       //- Check if title is not empty before printing it
       if title != ''
