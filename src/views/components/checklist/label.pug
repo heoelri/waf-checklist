@@ -2,9 +2,9 @@
   label(for=`c-checklist__item-${sectionTitle.toLowerCase().split(' ').join('-')}-${i}`)
 
     span.label__title= item.title + ': '
-    span.label__description #{item.description}
+    span.label__description #{item.context}
 
-  if item.tools || item.documentation || item.code || item.video
+  if item.tools || item.documentation || item.code || item.video || item.context || item.recommendation
     .c-checklist__details.js-details
 
       if item.context
