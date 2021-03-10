@@ -9,6 +9,7 @@ selenium-debug.log
 dist/
 .tmp/
 data/tooling/result.txt
+input/
 
 # Editor directories and files
 .idea
