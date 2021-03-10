@@ -23,9 +23,7 @@
             each child, i in item.children
               li
                 if child.title
-                  p.child.title
-                if child.code
-                  p.child.code
+                  p.c-checklist__text= child.title
 
       if item.tools
         .c-checklist__tools

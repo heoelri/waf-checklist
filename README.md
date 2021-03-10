@@ -1,23 +1,13 @@
-# The Azure Kubernetes Service Checklist
+# The Azure Well-Architected Framework Checklist
 
 ![Build and deploy on prod](https://github.com/lgmorand/aks-checklist/workflows/Build%20and%20deploy%20on%20prod/badge.svg) ![Last commit](https://img.shields.io/github/last-commit/lgmorand/aks-checklist.svg) ![License](https://img.shields.io/github/license/lgmorand/aks-checklist.svg)
 
-Deployed version can be found here: [www.the-aks-checklist.com](https://www.the-aks-checklist.com)
+Deployed version can be found here: [The Azure WAF Checklist](https://publicwafchecklist.z6.web.core.windows.net/)
 ![AKS Checklist](https://raw.githubusercontent.com/lgmorand/aks-checklist/master/src/img/social/facebook-banner.jpg)
 
 The AKS Checklist is a (tentatively) exhaustive list of all elements you need to think of when preparing a cluster for production. It is based on all common best practices agreed around Kubernetes or documented [here](https://docs.microsoft.com/en-us/azure/aks/best-practices).
 
 Another good reading in another format is the [AKS baseline reference architecture](https://github.com/mspnp/aks-secure-baseline) 
-
-## Author
-
-**[Louis-Guillaume MORAND](https://github.com/lgmorand)**
-
-## Contributors
-
-**[Fernando Mejía](https://github.com/feranto)**
-
-**[Michael Withrow](https://github.com/miwithro)**
 
 ## How to contribute
 
