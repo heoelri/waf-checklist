@@ -4,13 +4,11 @@
 //- Loop to save each tags present in JSON into categoryFilter
 each item, i in _items
 
-  each categoryList in item
+  each category in item
 
-    each category in categoryList.category
-
-      //- Check if the filter tag already exist in the categoryFilter array
-      - if (categoryFilter.indexOf(category) === -1)
-        - categoryFilter.push(category)
+    //- Check if the filter tag already exist in the categoryFilter array
+    - if (categoryFilter.indexOf(category) === -1)
+      - categoryFilter.push(category)
 
 
 //- Filter code implementation

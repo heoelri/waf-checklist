@@ -12,7 +12,6 @@
               if child.title
                 p.c-checklist__text= child.title
 
-  if item.tools || item.code || item.video || item.recommendation
     .c-checklist__details.js-details
 
       if item.code
@@ -21,36 +20,18 @@
             .code-icons
           .c-checklist__code__github.js-code(data-code-url=`${item.code}`)
 
-      if item.tools
-        .c-checklist__tools
-          h4= translation.SECTION_TOOL
-          ul.documentation__list
-            each tool, i in item.tools
-              li
-                img.c-checklist__favicon(src="/img/icons/1x1.png" data-src=`https://www.google.com/s2/favicons?domain_url=${tool.url}`, alt="")
-                a(href=`${tool.url}`, target="_blank", rel="noopener noreferrer")= tool.title
+    .c-tags
+      ul.c-tags__list
+        li.c-tags__item= item.id
 
-      if item.video
-        .c-checklist__video
-          h4= translation.SECTION_VIDEO
-          ul.video__list
-            each video, i in item.video
-              li
-                img.c-checklist__favicon(src="/img/icons/1x1.png" data-src=`https://www.google.com/s2/favicons?domain_url=${video.url}`, alt="")
-                a(href=`${video.url}`, target="_blank", rel="noopener noreferrer")= video.title
+      ul.c-tags__list
+        li.c-tags__item= item.category
+        li.c-tags__item= item.subCategory 
 
-  .c-tags
-    ul.c-tags__list
-      li.c-tags__item= item.id
-
-    ul.c-tags__list
-      li.c-tags__item= item.category
-      li.c-tags__item= item.subCategory 
-
-    ul.c-tags__list
-      each tag in item.tags
-        if tag == 'all'
-        else
-          li.c-tags__item= tag.toUpperCase()
+      ul.c-tags__list
+        each tag in item.tags
+          if tag == 'all'
+          else
+            li.c-tags__item= tag.toUpperCase()
 
   
