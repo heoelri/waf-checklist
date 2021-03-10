@@ -149,27 +149,6 @@
         "priority":  "Medium"
     },
     {
-        "type":  "Supporting Source Artifacts",
-        "pillars":  [
-                        "reliability",
-                        "operationalexcellence",
-                        "security"
-                    ],
-        "lens":  "service",
-        "category":  "Compute",
-        "subCategory":  "Azure Kubernetes Service (AKS)",
-        "title":  "Query to identify AKS clusters that are **NOT using RBAC**:",
-        "code":  "Resources\n| where type =~ \u0027Microsoft.ContainerService/managedClusters\u0027\n| where properties.enableRBAC == false\n",
-        "id":  "a4f198dd-ed19-40d9-9358-a76208cb76e5",
-        "tags":  [
-                     "reliability",
-                     "operationalexcellence",
-                     "security",
-                     "all"
-                 ],
-        "priority":  "Medium"
-    },
-    {
         "type":  "Configuration Recommendations",
         "pillars":  [
                         "reliability",

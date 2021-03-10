@@ -25,5 +25,7 @@ $AllPillars | % {
         $_.tags += "all"
     }
 
+    $AllItems = $AllItems |  Where-Object { $_.type -in ("Configuration Recommendations", "Design Considerations") }
+
     $AllItems | Where-Object { $_.pillars -contains $currentPillar } | ConvertTo-Json -depth 16 | Set-content "data/en/items/$currentPillar.json"
 }
