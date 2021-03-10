@@ -52,10 +52,10 @@
           each tag in item.tags
             if tag == 'all'
             else
-              li.c-tags__item= ${tag.toUpperCase()}
+              li.c-tags__item= tag.toUpperCase()
 
       .c-tags
         ul.c-tags__list
-          li.c-tags__item= ${item.id}
+          li.c-tags__item= "${item.id}"
 
   
