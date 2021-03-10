@@ -3,7 +3,8 @@
         "type":  "Design Considerations",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -38,7 +39,8 @@
         "type":  "Configuration Recommendations",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -75,7 +77,8 @@
         "type":  "Configuration Recommendations",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -89,7 +92,8 @@
         "type":  "Configuration Recommendations",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -109,7 +113,8 @@
         "type":  "Configuration Recommendations",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -123,7 +128,8 @@
         "type":  "Configuration Recommendations",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -137,7 +143,8 @@
         "type":  "Configuration Recommendations",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -150,7 +157,8 @@
         "type":  "Supporting Source Artifacts",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -163,7 +171,8 @@
         "type":  "Supporting Source Artifacts",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -183,7 +192,8 @@
         "type":  "Supporting Source Artifacts",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -197,7 +207,8 @@
         "type":  "Supporting Source Artifacts",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -211,7 +222,8 @@
         "type":  "Supporting Source Artifacts",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -225,7 +237,8 @@
         "type":  "Configuration Recommendations",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -248,7 +261,8 @@
         "type":  "Configuration Recommendations",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -273,7 +287,8 @@
     {
         "type":  "Configuration Recommendations",
         "tags":  [
-                     "reliability"
+                     "reliability",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -292,7 +307,8 @@
         "type":  "Configuration Recommendations",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -331,7 +347,8 @@
         "type":  "Configuration Recommendations",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -344,7 +361,8 @@
         "type":  "Configuration Recommendations",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -359,7 +377,8 @@
                      "reliability",
                      "operationalexcellence",
                      "performanceefficiency",
-                     "costoptimization"
+                     "costoptimization",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -394,7 +413,8 @@
         "tags":  [
                      "reliability",
                      "operationalexcellence",
-                     "security"
+                     "security",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -450,7 +470,8 @@
         "type":  "Configuration Recommendations",
         "tags":  [
                      "reliability",
-                     "security"
+                     "security",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -464,7 +485,8 @@
         "type":  "Configuration Recommendations",
         "tags":  [
                      "reliability",
-                     "security"
+                     "security",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -478,7 +500,8 @@
         "tags":  [
                      "reliability",
                      "operationalexcellence",
-                     "security"
+                     "security",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -502,7 +525,8 @@
         "type":  "Configuration Recommendations",
         "tags":  [
                      "reliability",
-                     "security"
+                     "security",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -515,7 +539,8 @@
         "type":  "Configuration Recommendations",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -534,7 +559,8 @@
         "type":  "Configuration Recommendations",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -557,7 +583,8 @@
     {
         "type":  "Supporting Source Artifacts",
         "tags":  [
-                     "reliability"
+                     "reliability",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -570,7 +597,8 @@
     {
         "type":  "Supporting Source Artifacts",
         "tags":  [
-                     "reliability"
+                     "reliability",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -583,7 +611,8 @@
     {
         "type":  "Supporting Source Artifacts",
         "tags":  [
-                     "reliability"
+                     "reliability",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -597,7 +626,8 @@
         "type":  "Supporting Source Artifacts",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -611,7 +641,8 @@
         "type":  "Supporting Source Artifacts",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -625,7 +656,8 @@
         "type":  "Design Considerations",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -639,7 +671,8 @@
         "type":  "Configuration Recommendations",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -697,7 +730,8 @@
     {
         "type":  "Configuration Recommendations",
         "tags":  [
-                     "reliability"
+                     "reliability",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -711,7 +745,8 @@
         "type":  "Configuration Recommendations",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -725,7 +760,8 @@
         "type":  "Configuration Recommendations",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -739,7 +775,8 @@
         "type":  "Configuration Recommendations",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -753,7 +790,8 @@
         "type":  "Configuration Recommendations",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -783,7 +821,8 @@
         "type":  "Supporting Source Artifacts",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -797,7 +836,8 @@
         "type":  "Supporting Source Artifacts",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -809,7 +849,8 @@
     {
         "type":  "Design Considerations",
         "tags":  [
-                     "reliability"
+                     "reliability",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -821,7 +862,8 @@
     {
         "type":  "Design Considerations",
         "tags":  [
-                     "reliability"
+                     "reliability",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -835,7 +877,8 @@
         "type":  "Configuration Recommendations",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -848,7 +891,8 @@
         "type":  "Configuration Recommendations",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -862,7 +906,8 @@
         "type":  "Configuration Recommendations",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -875,7 +920,8 @@
     {
         "type":  "Configuration Recommendations",
         "tags":  [
-                     "reliability"
+                     "reliability",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -889,7 +935,8 @@
         "type":  "Configuration Recommendations",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -902,7 +949,8 @@
         "type":  "Configuration Recommendations",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -915,7 +963,8 @@
         "type":  "Configuration Recommendations",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -929,7 +978,8 @@
         "type":  "Configuration Recommendations",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -942,7 +992,8 @@
         "type":  "Configuration Recommendations",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -956,7 +1007,8 @@
         "type":  "Configuration Recommendations",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -969,7 +1021,8 @@
         "type":  "Configuration Recommendations",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -982,7 +1035,8 @@
         "type":  "Configuration Recommendations",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -996,7 +1050,8 @@
         "type":  "Configuration Recommendations",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -1009,7 +1064,8 @@
         "type":  "Configuration Recommendations",
         "tags":  [
                      "reliability",
-                     "operationalexcellence"
+                     "operationalexcellence",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -1022,7 +1078,8 @@
     {
         "type":  "Configuration Recommendations",
         "tags":  [
-                     "costoptimization"
+                     "costoptimization",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -1035,7 +1092,8 @@
     {
         "type":  "Configuration Recommendations",
         "tags":  [
-                     "costoptimization"
+                     "costoptimization",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -1048,7 +1106,8 @@
     {
         "type":  "Configuration Recommendations",
         "tags":  [
-                     "costoptimization"
+                     "costoptimization",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -1061,7 +1120,8 @@
     {
         "type":  "Configuration Recommendations",
         "tags":  [
-                     "costoptimization"
+                     "costoptimization",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -1074,7 +1134,8 @@
     {
         "type":  "Configuration Recommendations",
         "tags":  [
-                     "costoptimization"
+                     "costoptimization",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -1087,7 +1148,8 @@
     {
         "type":  "Configuration Recommendations",
         "tags":  [
-                     "costoptimization"
+                     "costoptimization",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -1100,7 +1162,8 @@
     {
         "type":  "Configuration Recommendations",
         "tags":  [
-                     "costoptimization"
+                     "costoptimization",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
@@ -1113,7 +1176,8 @@
     {
         "type":  "Configuration Recommendations",
         "tags":  [
-                     "costoptimization"
+                     "costoptimization",
+                     "all"
                  ],
         "lens":  "service",
         "category":  "Compute",
