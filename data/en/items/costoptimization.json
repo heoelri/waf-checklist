@@ -34,8 +34,10 @@
                      ],
         "id":  "fd3a7975-91c0-4520-94db-639db35469f0",
         "tags":  [
-                     "all",
-                     "Azure Kubernetes Service (AKS)"
+                     "reliability",
+                     "operationalexcellence",
+                     "performanceefficiency",
+                     "costoptimization"
                  ],
         "priority":  "medium"
     },
@@ -51,8 +53,7 @@
         "context":  "The App Service Premium (v3) Plan has a 20% discount versus comparable Pv2 configurations. Reserved Instance commitment (1Y, 3Y, Dev/Test) discounts are available for App Services running in the Premium v3 plan.",
         "id":  "da1d85e3-0548-4df8-8fb0-1095dd1c9f5e",
         "tags":  [
-                     "all",
-                     "Azure App Service"
+                     "costoptimization"
                  ],
         "priority":  "medium"
     },
@@ -68,8 +69,7 @@
         "context":  "Purchasing reserved instances is a way to reduce Azure costs for workloads with stable usage. You have to manage utilization: if it’s too low then you are paying for resources that are not being used. One advice is to keep RI instances simple and not trying to have too much management overhead that has to be factored in as well as part of the cost.",
         "id":  "6c63c516-41be-48fa-a880-3f2ee48edb82",
         "tags":  [
-                     "all",
-                     "Virtual Machines"
+                     "costoptimization"
                  ],
         "priority":  "medium"
     },
@@ -85,8 +85,7 @@
         "context":  "The B-series VMs are ideal for workloads that do not need the full performance of the CPU continuously (like web servers, proof of concepts, small databases and development build environments).",
         "id":  "414a95d2-c631-408c-a88d-15ab728f9640",
         "tags":  [
-                     "all",
-                     "Virtual Machines"
+                     "costoptimization"
                  ],
         "priority":  "medium"
     },
@@ -102,8 +101,7 @@
         "context":  "Use the Start/Stop VMs during off-hours feature of virtual machines to minimize waste. There are many configuration options to schedule start the stop times. The feature is suitable as a low-cost automation option. Azure Advisor evaluates virtual machines based on CPU and network utilization over a time period and recommends actions like shut down or resize instances.",
         "id":  "bfbea384-42b4-4edf-8baa-4f806c00b85b",
         "tags":  [
-                     "all",
-                     "Virtual Machines"
+                     "costoptimization"
                  ],
         "priority":  "medium"
     },
@@ -119,8 +117,7 @@
         "context":  "Spot VMs are ideal for workloads that can be interrupted, such as highly parallel batch processing jobs. These VMs take advantage of the surplus capacity in Azure at a lower cost. They\u0027re also well suited for experimenting, development and testing of large-scale solutions.",
         "id":  "117961fd-2a98-472c-a4f5-69967447e440",
         "tags":  [
-                     "all",
-                     "Virtual Machines"
+                     "costoptimization"
                  ],
         "priority":  "medium"
     },
@@ -136,8 +133,7 @@
         "context":  "When you use the PaaS model, operational and maintenance costs are included in the pricing and in some cases can be cheaper than managing VMs on your own.",
         "id":  "02e60cdc-dd3d-4c96-997d-ff14dda201e1",
         "tags":  [
-                     "all",
-                     "Virtual Machines"
+                     "costoptimization"
                  ],
         "priority":  "medium"
     },
@@ -153,8 +149,7 @@
         "context":  "(in preview as of 11/2020) Replicate, failover and failback your business-critical virtual machines within the same region with zones. Ideal for those that have complicated networking infrastructure and want to avoid the cost and complexity of recreating it in a secondary region.",
         "id":  "78e97b23-894b-4b55-a21e-7154976923a1",
         "tags":  [
-                     "all",
-                     "Virtual Machines"
+                     "costoptimization"
                  ],
         "priority":  "medium"
     },
@@ -170,8 +165,7 @@
         "context":  "(in preview as of 11/2020) The AKS Stop/Start cluster feature now in public preview allows AKS customers to completely pause an AKS cluster, saving time and cost. The stop/start feature keeps cluster configurations in place and customers can pick up where they left off without reconfiguring the clusters.",
         "id":  "814f9737-b177-46cc-966e-77674d2033e0",
         "tags":  [
-                     "all",
-                     "Azure Kubernetes Service (AKS)"
+                     "costoptimization"
                  ],
         "priority":  "medium"
     }
