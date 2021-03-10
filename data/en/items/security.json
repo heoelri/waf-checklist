@@ -56,9 +56,9 @@
         "id":  "79a0b7f7-61b4-4c37-9516-da4859e55ec5",
         "tags":  [
                      "all",
-                     "Compute"
+                     "compute"
                  ],
-        "priority":  "medium"
+        "priority":  "Medium"
     },
     {
         "type":  "Configuration Recommendations",
@@ -74,9 +74,9 @@
         "id":  "68ac563f-498d-47d2-b1b1-b7373b2bc71b",
         "tags":  [
                      "all",
-                     "Compute"
+                     "compute"
                  ],
-        "priority":  "medium"
+        "priority":  "Medium"
     },
     {
         "type":  "Configuration Recommendations",
@@ -91,9 +91,9 @@
         "id":  "743db340-c580-4d54-9099-0737f6509540",
         "tags":  [
                      "all",
-                     "Compute"
+                     "compute"
                  ],
-        "priority":  "medium"
+        "priority":  "Medium"
     },
     {
         "type":  "Configuration Recommendations",
@@ -120,9 +120,9 @@
         "id":  "a1d08352-86ee-470e-a6fe-433e7989b377",
         "tags":  [
                      "all",
-                     "Compute"
+                     "compute"
                  ],
-        "priority":  "medium"
+        "priority":  "Medium"
     },
     {
         "type":  "Configuration Recommendations",
@@ -137,9 +137,9 @@
         "id":  "1ee847a3-2b5f-4313-8bda-f45d1fe63739",
         "tags":  [
                      "all",
-                     "Compute"
+                     "compute"
                  ],
-        "priority":  "medium"
+        "priority":  "Medium"
     },
     {
         "type":  "Supporting Source Artifacts",
@@ -156,9 +156,9 @@
         "id":  "a4f198dd-ed19-40d9-9358-a76208cb76e5",
         "tags":  [
                      "all",
-                     "Compute"
+                     "compute"
                  ],
-        "priority":  "medium"
+        "priority":  "Medium"
     },
     {
         "type":  "Configuration Recommendations",
@@ -175,8 +175,8 @@
         "id":  "2e8b9298-cd09-49e2-83a0-be8363ee2866",
         "tags":  [
                      "all",
-                     "Compute"
+                     "compute"
                  ],
-        "priority":  "medium"
+        "priority":  "Medium"
     }
 ]

@@ -35,9 +35,9 @@
         "id":  "fd3a7975-91c0-4520-94db-639db35469f0",
         "tags":  [
                      "all",
-                     "Compute"
+                     "compute"
                  ],
-        "priority":  "medium"
+        "priority":  "Medium"
     },
     {
         "type":  "Configuration Recommendations",
@@ -54,8 +54,8 @@
         "id":  "2a534a68-03bf-4a81-8790-131b7db44931",
         "tags":  [
                      "all",
-                     "Compute"
+                     "compute"
                  ],
-        "priority":  "medium"
+        "priority":  "Medium"
     }
 ]

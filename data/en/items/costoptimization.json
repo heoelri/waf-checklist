@@ -35,9 +35,9 @@
         "id":  "fd3a7975-91c0-4520-94db-639db35469f0",
         "tags":  [
                      "all",
-                     "Compute"
+                     "compute"
                  ],
-        "priority":  "medium"
+        "priority":  "Medium"
     },
     {
         "type":  "Configuration Recommendations",
@@ -52,9 +52,9 @@
         "id":  "da1d85e3-0548-4df8-8fb0-1095dd1c9f5e",
         "tags":  [
                      "all",
-                     "Compute"
+                     "compute"
                  ],
-        "priority":  "medium"
+        "priority":  "Medium"
     },
     {
         "type":  "Configuration Recommendations",
@@ -69,9 +69,9 @@
         "id":  "6c63c516-41be-48fa-a880-3f2ee48edb82",
         "tags":  [
                      "all",
-                     "Compute"
+                     "compute"
                  ],
-        "priority":  "medium"
+        "priority":  "Medium"
     },
     {
         "type":  "Configuration Recommendations",
@@ -86,9 +86,9 @@
         "id":  "414a95d2-c631-408c-a88d-15ab728f9640",
         "tags":  [
                      "all",
-                     "Compute"
+                     "compute"
                  ],
-        "priority":  "medium"
+        "priority":  "Medium"
     },
     {
         "type":  "Configuration Recommendations",
@@ -103,9 +103,9 @@
         "id":  "bfbea384-42b4-4edf-8baa-4f806c00b85b",
         "tags":  [
                      "all",
-                     "Compute"
+                     "compute"
                  ],
-        "priority":  "medium"
+        "priority":  "Medium"
     },
     {
         "type":  "Configuration Recommendations",
@@ -120,9 +120,9 @@
         "id":  "117961fd-2a98-472c-a4f5-69967447e440",
         "tags":  [
                      "all",
-                     "Compute"
+                     "compute"
                  ],
-        "priority":  "medium"
+        "priority":  "Medium"
     },
     {
         "type":  "Configuration Recommendations",
@@ -137,9 +137,9 @@
         "id":  "02e60cdc-dd3d-4c96-997d-ff14dda201e1",
         "tags":  [
                      "all",
-                     "Compute"
+                     "compute"
                  ],
-        "priority":  "medium"
+        "priority":  "Medium"
     },
     {
         "type":  "Configuration Recommendations",
@@ -154,9 +154,9 @@
         "id":  "78e97b23-894b-4b55-a21e-7154976923a1",
         "tags":  [
                      "all",
-                     "Compute"
+                     "compute"
                  ],
-        "priority":  "medium"
+        "priority":  "Medium"
     },
     {
         "type":  "Configuration Recommendations",
@@ -171,8 +171,8 @@
         "id":  "814f9737-b177-46cc-966e-77674d2033e0",
         "tags":  [
                      "all",
-                     "Compute"
+                     "compute"
                  ],
-        "priority":  "medium"
+        "priority":  "Medium"
     }
 ]
