@@ -1,32 +1,32 @@
 //- Array container for each filters
 - categoryFilter = []
 
-//- Loop to save each tags present in JSON into categoryFilter
+//- Loop to save each category present in JSON into categoryFilter
 each item, i in _items
 
-  //- Check if the filter tag already exist in the categoryFilter array
+  //- Check if the filter category already exist in the categoryFilter array
   - if (categoryFilter.indexOf(item.category) === -1)
     - categoryFilter.push(item.category)
 
 
 //- Filter code implementation
-aside.c-category-filter
-  h2.c-category-filter__title= translation.SECTION_TAG
+aside.c-tag-filter
+  h2.c-tag-filter__title= translation.SECTION_TAG
 
-  ul.c-category-filter__list
+  ul.c-tag-filter__list
 
     //- Loop to grab each title in the categoryFilter array
     each title in categoryFilter
 
       //- Add uppercase in the first letter
       //- titleFilter = title.charAt(0).toUpperCase() + title.slice(1)
-      titleFilter = title 
+      - titleFilter = title 
 
       //- Slip and add a dash if the tag is more than 1 word
       //- dataFilter = title.split(' ').join('-')
-      dataFilter = title
+      - dataFilter = title
 
       //- Check if title is not empty before printing it
       if title != ''
-        li.c-category-filter__item
+        li.c-tag-filter__item
           button.js-filter-category(data-category=`${dataFilter}`)= titleFilter
