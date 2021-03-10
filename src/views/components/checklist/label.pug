@@ -1,7 +1,7 @@
 .c-checklist__column.c-checklist__label
   label(for=`c-checklist__item-${sectionTitle.toLowerCase().split(' ').join('-')}-${i}`)
 
-    span.label__title= item.title + ': '
+    span.label__title= item.title + '<br /> '
     span.label__description #{item.context}
 
   if item.tools || item.documentation || item.code || item.video || item.context || item.recommendation
