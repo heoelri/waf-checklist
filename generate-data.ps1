@@ -18,7 +18,9 @@ $AllPillars | % {
     $AllItems | % {
         $_ | Add-Member -MemberType NoteProperty -Name tags -Value $_.pillars -Force
         $_ | Add-Member -MemberType NoteProperty -Name priority -Value "Medium" -Force
+        $_ | Add-Member -MemberType NoteProperty -Name category -Value @($_.category) -Force
 
+        #$_.category += "all"
         $_.tags += "all"
     }
 

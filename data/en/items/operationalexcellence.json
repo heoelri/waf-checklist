@@ -6,7 +6,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Compute",
         "subCategory":  "Virtual Machines",
         "title":  "Microsoft provides the following [SLAs for virtual machines](https://azure.microsoft.com/support/legal/sla/virtual-machines/v1_9/):",
         "children":  [
@@ -37,7 +36,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Compute"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -46,7 +48,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Compute",
         "subCategory":  "Virtual Machines",
         "title":  "For all virtual machines requiring resiliency, it is highly recommended that:",
         "children":  [
@@ -79,7 +80,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Compute"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -88,7 +92,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Compute",
         "subCategory":  "Virtual Machines",
         "title":  "Azure Metadata Service Scheduled Events should be used to proactively respond to maintenance events (i.e. reboots) and limit disruption to virtual machines.",
         "context":  "Scheduled Events is an [Azure Metadata Service](https://docs.microsoft.com/azure/virtual-machines/windows/scheduled-events) that gives your application time to prepare for virtual machine (VM) maintenance. It provides information about upcoming maintenance events (for example, reboot) so that your application can prepare for them and limit disruption.",
@@ -98,7 +101,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Compute"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -107,7 +113,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Compute",
         "subCategory":  "Virtual Machines",
         "title":  "[Azure Backup](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction) should be used to back-up virtual machines in a Recovery Services Vault, to protect against accidental data loss.",
         "children":  [
@@ -123,7 +128,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Compute"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -132,7 +140,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Compute",
         "subCategory":  "Virtual Machines",
         "title":  "Enable diagnostic logging for all virtual machines to ensure health metrics, boot diagnostics and infrastructure logs are routed to Log Analytics or an alternative log aggregation technology.",
         "context":  "Platform logs provide detailed diagnostic and auditing information for Azure resources and the Azure platform they depend on. See [Overview of Azure platform logs](https://docs.microsoft.com/azure/azure-monitor/platform/platform-logs-overview) for more.",
@@ -142,7 +149,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Compute"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -151,7 +161,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Compute",
         "subCategory":  "Virtual Machines",
         "title":  "Establish virtual machine Resource Health alerts to notify key stakeholders when resource health events occur.",
         "context":  "An appropriate threshold for resource unavailability must be set to minimize signal to noise ratios so that transient faults do not generate an alert. For example, configuring a virtual machine alert with an unavailability threshold of 1 minute before an alert is triggered. See [Resource Health Alerts](https://docs.microsoft.com/azure/service-health/resource-health-alert-arm-template-guide) for more.",
@@ -161,7 +170,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Compute"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -170,7 +182,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Compute",
         "subCategory":  "Virtual Machines",
         "title":  "To ensure application scalability while navigating within disk sizing thresholds, it is highly recommended that applications be installed on data disks rather than the OS disk.",
         "id":  "ee8fe2a0-cf4a-4e95-8bbe-5bffa15d18b3",
@@ -179,7 +190,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Compute"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -188,7 +202,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Compute",
         "subCategory":  "Azure Kubernetes Service (AKS)",
         "title":  "Utilize the [AKS Uptime SLA](https://docs.microsoft.com/azure/aks/uptime-sla) for production grade clusters. The AKS Uptime SLA guarantees:",
         "children":  [
@@ -207,7 +220,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Compute"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -216,7 +232,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Compute",
         "subCategory":  "Azure Kubernetes Service (AKS)",
         "title":  "Subscribe to the AKS Roadmap and Release Notes on GitHub",
         "context":  "Make sure that you\u0027re subscribed to the [public AKS Roadmap Release Notes](https://github.com/azure/aks) on GitHub to stay up-to-date on upcoming changes, improvements and most importantly Kubernetes version releases and the deprecation of old releases.",
@@ -238,7 +253,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Compute"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -247,7 +265,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Compute",
         "subCategory":  "Azure Kubernetes Service (AKS)",
         "title":  "Node Pool Design",
         "children":  [
@@ -282,7 +299,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Compute"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -291,7 +311,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Compute",
         "subCategory":  "Azure Kubernetes Service (AKS)",
         "title":  "Use a template based deployment using ARM, Terraform, Ansible and others only. Make sure that all deployments are repeatable and traceable and stored in a sourcecode repo. Can be combined with GitOps.",
         "id":  "2df1b42d-0571-4dfc-9d0c-544a31bad7e2",
@@ -300,7 +319,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Compute"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -309,7 +331,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Compute",
         "subCategory":  "Azure Kubernetes Service (AKS)",
         "title":  "Modifying resources in the [node resource group (ie - \u0027MC_\u0027)](https://docs.microsoft.com/azure/aks/faq#why-are-two-resource-groups-created-with-aks) is not recommended and should only be done at [cluster creation time](https://docs.microsoft.com/azure/aks/faq#can-i-provide-my-own-name-for-the-aks-node-resource-group), or with assistance from Azure Support.",
         "id":  "d3210d5b-ca53-4e76-8b66-080df4bf1424",
@@ -318,7 +339,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Compute"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -329,7 +353,6 @@
                         "costoptimization"
                     ],
         "lens":  "service",
-        "category":  "Compute",
         "subCategory":  "Azure Kubernetes Service (AKS)",
         "title":  "Scalability",
         "children":  [
@@ -361,7 +384,10 @@
                      "costoptimization",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Compute"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -371,7 +397,6 @@
                         "security"
                     ],
         "lens":  "service",
-        "category":  "Compute",
         "subCategory":  "Azure Kubernetes Service (AKS)",
         "title":  "Security Guidelines",
         "children":  [
@@ -424,7 +449,10 @@
                      "security",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Compute"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -434,7 +462,6 @@
                         "security"
                     ],
         "lens":  "service",
-        "category":  "Compute",
         "subCategory":  "Azure Kubernetes Service (AKS)",
         "title":  "Utilize a central monitoring tool (eg. - [Azure Monitor and App Insights](https://docs.microsoft.com/azure/azure-monitor/insights/container-insights-overview)) to centrally collect metrics, logs, and diagnostics for troubleshooting purposes.",
         "children":  [
@@ -455,7 +482,10 @@
                      "security",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Compute"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -464,7 +494,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Compute",
         "subCategory":  "Azure Kubernetes Service (AKS)",
         "title":  "Adopt a [multi-region strategy](https://docs.microsoft.com/azure/aks/operator-best-practices-multi-region#plan-for-multiregion-deployment) by deploying AKS clusters deployed across different Azure regions to maximize availability and provide business continuity.",
         "children":  [
@@ -479,7 +508,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Compute"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -488,7 +520,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Compute",
         "subCategory":  "Azure Kubernetes Service (AKS)",
         "title":  "Store container images within Azure Container Registry and enable [geo-replication](https://docs.microsoft.com/azure/aks/operator-best-practices-multi-region#enable-geo-replication-for-container-images) to replicate container images across leveraged AKS regions.",
         "children":  [
@@ -508,7 +539,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Compute"
+                     ]
     },
     {
         "type":  "Design Considerations",
@@ -517,7 +551,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Compute",
         "subCategory":  "Azure App Service",
         "title":  "Microsoft guarantees that Apps will be available 99.95% of the time. However, no SLA is provided for Apps using either the Free or Shared tiers.",
         "context":  "[SLA for App Service](https://azure.microsoft.com/support/legal/sla/app-service/v1_4/)",
@@ -527,7 +560,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Compute"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -536,7 +572,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Compute",
         "subCategory":  "Azure App Service",
         "title":  "Azure App Service provides a number of configuration options that are not enabled by default. For all App Services requiring resiliency, it is highly recommended that:",
         "children":  [
@@ -591,7 +626,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Compute"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -600,7 +638,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Compute",
         "subCategory":  "Azure App Service",
         "title":  "For App Service Environments, ensure the [ASE Network](https://docs.microsoft.com/azure/app-service/environment/network-info) is configured correctly.",
         "context":  "One common ASE pitfall occurs when ASE is deployed into a subnet with an IP Address space that is too small to support future expansion. In such cases, ASE can be left unable to scale without redeploying the entire environment into a larger subnet. It is highly recommended that adequate IP addresses be used to support either the maximum number of workers or the largest number considered workloads will need. A single ASE cluster can scale to 201 instance, which would require a /24 subnet.",
@@ -610,7 +647,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Compute"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -619,7 +659,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Compute",
         "subCategory":  "Azure App Service",
         "title":  "For App Service Environments, consider configuring [Upgrade Preference](https://docs.microsoft.com/azure/app-service/environment/using-an-ase#upgrade-preference) if multiple environments are used.",
         "context":  "If lower environments are used for staging or testing, consideration should be given to configuring these environments to receive updates sooner than the production environment. This will help to identify any conflicts or problems with an update and provides a window to mitigate issues before they reach the production environment.If multiple load balanced (zonal) production deployments are used, upgrade preference can also be used to protect the broader environment against issues from platform upgrades.",
@@ -629,7 +668,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Compute"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -638,7 +680,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Compute",
         "subCategory":  "Azure App Service",
         "title":  "For App Service Environments, plan for scaling out the ASE cluster",
         "context":  "Scaling ASE instances vertically or horizontally currently takes 30-60 minutes as new private instances need to be provisioned. It is highly recommended that effort be invested up-front to plan for scaling during spikes in load or transient failure scenarios.",
@@ -648,7 +689,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Compute"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -657,7 +701,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Compute",
         "subCategory":  "Azure App Service",
         "title":  "When deploying application code or configuration, it is highly recommended that:",
         "children":  [
@@ -683,7 +726,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Compute"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -692,7 +738,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Compute",
         "subCategory":  "Service Fabric",
         "title":  "Review the [Service Fabric production readiness checklist](https://docs.microsoft.com/azure/service-fabric/service-fabric-production-readiness-checklist)",
         "id":  "6e3950db-6aa4-43c7-ba2a-e55f74e5634b",
@@ -701,7 +746,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Compute"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -710,7 +758,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Compute",
         "subCategory":  "Service Fabric",
         "title":  "Use durability level Silver (5 VMs) or higher for production scenarios.",
         "context":  "This will ensure the Azure infrastructure communicates with the Service Fabric controller on scheduling reboots, etc.",
@@ -720,7 +767,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Compute"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -729,7 +779,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Compute",
         "subCategory":  "Service Fabric",
         "title":  "For critical workloads, consider using Availability Zones for your Service Fabric clusters.",
         "context":  "This means deploying a primary NodeType (and by extension a VM ScaleSet) to each AZ. This will ensure that the Service Fabric system services are spread across zones.",
@@ -739,7 +788,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Compute"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -748,7 +800,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Compute",
         "subCategory":  "Service Fabric",
         "title":  "For production scenarios, use the Standard tier load balancer. The Basic SKU is free, but does not have an SLA.",
         "id":  "2d03a956-1655-4bf4-99d6-cce0658363b6",
@@ -757,7 +808,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Compute"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -766,7 +820,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Compute",
         "subCategory":  "Service Fabric",
         "title":  "Keep the different node types and gateway services on different subnets.",
         "id":  "f2d0794d-4b30-44aa-b26e-59d0c2423275",
@@ -775,7 +828,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Compute"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -785,7 +841,6 @@
                         "security"
                     ],
         "lens":  "service",
-        "category":  "Compute",
         "subCategory":  "Service Fabric",
         "title":  "Apply Network Security Groups (NSG) to restrict traffic flow between subnets/node types. Ensure that the [correct ports](https://docs.microsoft.com/azure/service-fabric/service-fabric-best-practices-networking#cluster-networking) are opened for managing the cluster.",
         "context":  "For example, you may have an API Management instance (one subnet), a frontend subnet (exposing a website directly) and a backend subnet (accessible only to frontend), each implemented on a different VM Scale Set.",
@@ -796,7 +851,10 @@
                      "security",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Compute"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -805,7 +863,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Compute",
         "subCategory":  "Service Fabric",
         "title":  "When using secrets (connection strings, passwords) in SF services, either retrieve them directly from Key Vault at runtime or use the [Service Fabric Secrets Store](https://docs.microsoft.com/azure/service-fabric/service-fabric-application-secret-store)",
         "id":  "fa0d4cc3-8f9b-4f0b-9a63-8e24dc7b8f25",
@@ -814,7 +871,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Compute"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -823,7 +883,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Compute",
         "subCategory":  "Service Fabric",
         "title":  "When using the Service Fabric Secret Store to distribute secrets, use a separate data encipherment certificate to encrypt the values.",
         "context":  "This certificate is deployed to the VM scaleset nodes to decrypt the secret values. When using this approach, ensure that secrets are inserted and encrypted at release time. Using this approach means that changing the secrets requires a deployment. Make sure your key-rotation process is fully automated to do this without downtime.",
@@ -833,7 +892,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Compute"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -842,7 +904,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Compute",
         "subCategory":  "Service Fabric",
         "title":  "Do not use self-signed certificates for production scenarios. Either provision a certificate through your PKI or use a public certificate authority.",
         "id":  "3f52749e-84d3-49a1-8741-e0444ef5ceed",
@@ -851,7 +912,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Compute"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -860,7 +924,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Compute",
         "subCategory":  "Service Fabric",
         "title":  "Deploy certificates by adding them to Azure Keyvault and referencing the URI in your deployment.",
         "id":  "b6a3c08a-3b4f-46cc-8590-1bbb799e0e84",
@@ -869,7 +932,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Compute"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -878,7 +944,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Compute",
         "subCategory":  "Service Fabric",
         "title":  "Have a process in place for monitoring the expiration date of certificates.",
         "context":  "For example, Key Vault offers a feature that sends an email when x% of the certificate\u0027s lifespan has elapsed.",
@@ -888,7 +953,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Compute"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -897,7 +965,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Compute",
         "subCategory":  "Service Fabric",
         "title":  "Enable Azure Active Directory integration for your cluster to ensure users can access Service Fabric Explorer using their AAD credentials. Do not distribute the cluster certificate among users to access Explorer. ",
         "id":  "400ab4ef-85de-45d0-b59e-0dfc912219b0",
@@ -906,7 +973,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Compute"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -916,7 +986,6 @@
                         "performanceefficiency"
                     ],
         "lens":  "service",
-        "category":  "Compute",
         "subCategory":  "Service Fabric",
         "title":  "Exclude the Service Fabric processes from Windows Defender to improve performance.",
         "context":  "By default, Windows Defender antivirus is installed on Windows Server 2016 and 2019. To reduce any performance impact and resource consumption overhead incurred by Windows Defender, and if your security policies allow you to exclude processes and paths for open-source software, you can [exclude](https://docs.microsoft.com/azure/service-fabric/service-fabric-best-practices-security#windows-defender) the Service Fabric executables from Defender scans.",
@@ -927,7 +996,10 @@
                      "performanceefficiency",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Compute"
+                     ]
     },
     {
         "type":  "Design Considerations",
@@ -936,7 +1008,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Azure SQL Database",
         "title":  "Azure SQL Database is a fully managed platform as a service (PaaS) database engine that handles most of the database management functions. Azure SQL Database is always running on the latest stable version of the SQL Server database engine and patched OS with 99.99% availability. PaaS capabilities that are built into Azure SQL Database enable you to focus on the domain-specific database administration and optimization activities that are critical for your business. ",
         "id":  "4866a231-88a5-496b-b454-3c24f6b64faf",
@@ -945,7 +1016,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Design Considerations",
@@ -954,7 +1028,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Azure SQL Database",
         "title":  "Azure SQL Database is having built-in regional high availability and turnkey geo-replication to any Azure region. It includes intelligence to support self-driving features such as performance tuning, threat monitoring, and vulnerability assessments and provides fully automated patching and updating of the code base.",
         "id":  "fc57b145-f8f0-4ea1-9e88-97084d226b0a",
@@ -963,7 +1036,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Design Considerations",
@@ -972,7 +1048,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Azure SQL Database",
         "title":  "Azure SQL Database Business Critical or Premium tiers configured as Zone Redundant Deployments have an availability guarantee of at least 99.995%.",
         "id":  "52d32317-63e6-4fae-b8af-75eddadaccbe",
@@ -981,7 +1056,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Design Considerations",
@@ -990,7 +1068,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Azure SQL Database",
         "title":  "Azure SQL Database Business Critical or Premium tiers not configured for Zone Redundant Deployments, General Purpose, Standard, or Basic tiers, or Hyperscale tier with two or more replicas have an availability guarantee of at least 99.99%.",
         "id":  "d0235040-2470-490e-bab5-5b0c10ea22f3",
@@ -999,7 +1076,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Design Considerations",
@@ -1008,7 +1088,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Azure SQL Database",
         "title":  "Azure SQL Database Hyperscale tier with one replica has an availability guarantee of at least 99.95% and 99.9% for zero replicas.",
         "id":  "e203729b-1283-4d3d-a0a0-6d8c97c8b2e5",
@@ -1017,7 +1096,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Design Considerations",
@@ -1026,7 +1108,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Azure SQL Database",
         "title":  "Azure SQL Database Business Critical tier configured with geo-replication has a guarantee of Recovery point objective (RPO) of 5 sec for 100% of deployed hours.",
         "id":  "4ec22eb1-2dbb-451d-aa22-1a527da4be48",
@@ -1035,7 +1116,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Design Considerations",
@@ -1044,7 +1128,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Azure SQL Database",
         "title":  "Azure SQL Database Business Critical tier configured with geo-replication has a guarantee of Recovery time objective (RTO) of 30 sec for 100% of deployed hours.",
         "id":  "7285cd69-f5a7-49e8-bcff-e6b04b073625",
@@ -1053,7 +1136,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Design Considerations",
@@ -1062,7 +1148,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Azure SQL Database",
         "title":  "Use point-in-time restore to recover from human error. Point-in-time restore returns your database to an earlier point in time to recover data from changes done inadvertently. For more information, read the [PITR documentation](https://docs.microsoft.com/azure/azure-sql/database/recovery-using-backups#point-in-time-restore).",
         "id":  "954bbcfb-ec77-418a-b0a7-e13182b372d3",
@@ -1071,7 +1156,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Design Considerations",
@@ -1080,7 +1168,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Azure SQL Database",
         "title":  "Use geo-restore to recover from a service outage. You can restore a database on any SQL Database server or an instance database on any managed instance in any Azure region from the most recent geo-replicated backups. Geo-restore uses a geo-replicated backup as its source. You can request geo-restore even if the database or datacenter is inaccessible due to an outage. Geo-restore restores a database from a geo-redundant backup. For more information, see [Recover an Azure SQL database using automated database backups](https://docs.microsoft.com/azure/sql-database/sql-database-recovery-using-backups)",
         "id":  "f6ac0853-e307-4100-a854-5a2c1361f894",
@@ -1089,7 +1176,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Design Considerations",
@@ -1098,7 +1188,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Azure SQL Database",
         "title":  "Use sharding Sharding is a technique of distributing data and processing across many identically structured databases, provides an alternative to traditional scale-up approaches both in terms of cost and elasticity. Consider using sharding to partition the database horizontally. Sharding can provide fault isolation. For more information, see [Scaling out with Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-scale-introduction).",
         "id":  "cc2dd1e6-b510-4f3c-9be6-1a1ccb829e25",
@@ -1107,7 +1196,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Design Considerations",
@@ -1116,7 +1208,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Azure SQL Database",
         "title":  "Define an application performance SLA and monitor it with alerts. Detecting quickly when your application performance inadvertently degrades below an acceptable level is important to maintain high resiliency. Use the monitoring solution defined above to set alerts on key query performance metrics to you can take action when the performance breaks the SLA. Go to [Monitor Your Database](https://docs.microsoft.com/azure/azure-sql/database/monitor-tune-overview) for more information.",
         "id":  "1d50f67d-290b-4665-acfd-93970dd70a03",
@@ -1125,7 +1216,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -1134,7 +1228,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Azure SQL Database",
         "title":  "Configure HA/DR that best feed your needs from following options: Azure SQL DB offers the following capabilities for recovering from an outage, it is advised to implement one or combination of one or more depending on Business RTO/RPO requirements:",
         "children":  [
@@ -1157,7 +1250,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -1166,7 +1262,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Azure SQL Database",
         "title":  "Monitor your Azure SQL DB in near-real time to detect reliability incidents. Use one of the available solutions to monitor SQL DB to detect potential reliability incidents early and make your databases more reliable. Choosing a near real-time monitoring solution is key to quickly react to incidents. See [Azure SQL Analytics](https://docs.microsoft.com/azure/azure-monitor/insights/azure-sql#analyze-data-and-create-alerts) for more information.",
         "id":  "8cfb15ee-3f9f-40ad-a0af-37501492aa1a",
@@ -1175,7 +1270,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -1184,7 +1282,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Azure SQL Database",
         "title":  "Backup your keys: If you are not [using encryption keys in Azure key vault to protect your data](https://docs.microsoft.com/azure/sql-database/sql-database-always-encrypted-azure-key-vault), backup your keys!",
         "id":  "418e8908-fef2-493c-8766-eea3a0b98da3",
@@ -1193,7 +1290,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -1202,7 +1302,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Azure SQL Database",
         "title":  "Implement Retry Logic: Although Azure SQL Database is resilient on the transitive infrastructure failures, these failures might affect your connectivity. When a transient error occurs while working with SQL Database, make sure your code must be able to retry the call. Follow the link for detailed instruction on how to [Implement retry logic](https://docs.microsoft.com/azure/azure-sql/database/troubleshoot-common-connectivity-issues).",
         "id":  "13c9b276-aa74-4ac5-9e46-c834b2968b29",
@@ -1211,7 +1310,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Design Considerations",
@@ -1220,7 +1322,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Azure SQL Managed Instance",
         "title":  "Use point-in-time restore to recover from human error. Point-in-time restore returns your database to an earlier point in time to recover data from changes done inadvertently. For more information, read the [PITR documentation for managed instance](https://docs.microsoft.com/azure/azure-sql/database/recovery-using-backups#point-in-time-restore)",
         "id":  "7b23ec24-cd56-4c46-9918-449c03bd00a8",
@@ -1229,7 +1330,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Design Considerations",
@@ -1238,7 +1342,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Azure SQL Managed Instance",
         "title":  "Use geo-restore to recover from a service outage. Geo-restore restores a database from a geo-redundant backup into a managed instance in a different region. For more information, see [Recover a database using Geo-restore documentation](https://docs.microsoft.com/azure/azure-sql/database/auto-failover-group-overview).",
         "id":  "d45e695c-ead8-47d0-a51e-df0e6589c0ec",
@@ -1247,7 +1350,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Design Considerations",
@@ -1256,7 +1362,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Azure SQL Managed Instance",
         "title":  "Define an application performance SLA and monitor it with alerts. Detecting quickly when your application performance inadvertently degrades below an acceptable level is important to maintain high resiliency. Use the monitoring solution defined above to set alerts on key query performance metrics to you can take action when the performance breaks the SLA.",
         "id":  "c86e1626-1600-4dc8-ba41-eabec22e2a88",
@@ -1265,7 +1370,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Design Considerations",
@@ -1274,7 +1382,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Azure SQL Managed Instance",
         "title":  "Consider the time required for certain operations. Make sure you separate time to thoroughly test the amount of time required to scale up and down (change the size) your existing managed instance, and to create a new managed instance. This will ensure that you understand completely how these time consuming operations will affect your RTO and RPO.",
         "id":  "c14f4c48-1fc5-4fd5-bace-46f4c2cd67a5",
@@ -1283,7 +1390,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -1292,7 +1402,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Azure SQL Managed Instance",
         "title":  "Use Business Critical tier. This tier provides higher resiliency to failures and faster failover times due to the underlying HA architecture, among other benefits. For more information, see [SQL Managed Instance High availability](https://docs.microsoft.com/azure/azure-sql/database/high-availability-sla).",
         "id":  "9c4e6e9a-788f-48b3-9845-485159efda5e",
@@ -1301,7 +1410,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -1310,7 +1422,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Azure SQL Managed Instance",
         "title":  "Configure a secondary instance and an Auto-failover group to enable failover to another region. If an outage impacts one or more of the databases in the managed instance, you can manually or automatically failover all the databases inside the instance to a secondary region. For more information, read the [Auto-failover groups documentation for managed instance](https://docs.microsoft.com/azure/azure-sql/database/auto-failover-group-overview)",
         "id":  "500a2f43-b04b-4bc3-b69b-c3c1389f1fc3",
@@ -1319,7 +1430,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -1328,7 +1442,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Azure SQL Managed Instance",
         "title":  "Monitor your SQL MI instance in near-real time to detect reliability incidents. Use one of the available solutions to monitor your SQL MI to detect potential reliability incidents early and make your databases more reliable. Choosing a near real-time monitoring solution is key to quickly react to incidents. For more information, check out the [Azure SQL Managed Instance monitoring options](http://aka.ms/mi-monitoring).",
         "id":  "a14c0425-221b-467b-bcc7-08ddc70c6a9b",
@@ -1337,7 +1450,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -1346,7 +1462,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Azure SQL Managed Instance",
         "title":  "Implement Retry Logic: Although Azure SQL MI is resilient on the transitive infrastructure failures, these failures might affect your connectivity. When a transient error occurs while working with SQL MI, make sure your code must be able to retry the call. Follow the link for detailed instruction on how to [Implement retry logic](https://docs.microsoft.com/azure/azure-sql/database/troubleshoot-common-connectivity-issues).",
         "id":  "b557e4ce-a74a-4ac7-a29e-b93155e2e179",
@@ -1355,7 +1470,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Design Considerations",
@@ -1364,7 +1482,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Cosmos DB",
         "title":  "99.99% SLAs for throughput, consistency, availability and latency for Database Accounts scoped to a single Azure region configured with any of the five Consistency Levels or Database Accounts spanning to multiple Azure regions, configured with any of the four relaxed Consistency Levels.",
         "id":  "90400b8f-9f7d-4ed8-9436-0ab115fc7f53",
@@ -1373,7 +1490,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Design Considerations",
@@ -1382,7 +1502,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Cosmos DB",
         "title":  "99.999% SLA for read availability for Database Accounts spanning two or more Azure region.",
         "id":  "d513ec08-d08e-4121-b81a-a48bb459227d",
@@ -1391,7 +1510,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Design Considerations",
@@ -1400,7 +1522,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Cosmos DB",
         "title":  "99.999% SLA for both read and write availability with the configuration of multiple Azure regions as writable endpoints.",
         "context":  "[Cosmos DB Service Level Agreements](https://azure.microsoft.com/support/legal/sla/cosmos-db/v1_3/)",
@@ -1410,7 +1531,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -1419,7 +1543,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Cosmos DB",
         "title":  "It is strongly recommended that you configure the Azure Cosmos accounts used for production workloads to enable [automatic failover](https://docs.microsoft.com/azure/cosmos-db/high-availability#multi-region-accounts-with-a-single-write-region-write-region-outage). ",
         "id":  "a013be2b-301a-4e3c-971f-0e29313c82d8",
@@ -1428,7 +1551,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -1437,7 +1563,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Cosmos DB",
         "title":  "Session is default consistency level, and it is the most widely used [consistency level](https://docs.microsoft.com/azure/cosmos-db/consistency-levels). It is the recommended consistency level to start with as it receives data later but in the same order as the writes.",
         "id":  "0f42cd7c-47e3-479f-9bf6-3366da2ac4a9",
@@ -1446,7 +1571,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -1455,7 +1583,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Cosmos DB",
         "title":  "Use [Azure Monitor](https://docs.microsoft.com/azure/cosmos-db/monitor-cosmos-db) to see the provisioned autoscale max RU/s (Autoscale Max Throughput) and the RU/s the system is currently scaled to (Provisioned Throughput).",
         "id":  "0458a102-1125-4142-9508-c23d5773795f",
@@ -1464,7 +1591,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -1473,7 +1603,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Cosmos DB",
         "title":  "Understand your traffic pattern in order to pick the right option for [provisioned throughput types](https://docs.microsoft.com/azure/cosmos-db/how-to-choose-offer).",
         "id":  "7b1470df-d347-43a4-aacb-f5b7d697d2cc",
@@ -1482,7 +1611,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -1491,7 +1623,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Cosmos DB",
         "title":  "For new applications, if you don’t know your traffic pattern yet, start at the entry point RU/s to avoid over-provisioning in the beginning.",
         "id":  "7ff41caa-9b38-41e4-bcb8-33ff7cf36d63",
@@ -1500,7 +1631,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -1509,7 +1643,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Cosmos DB",
         "title":  "For existing applications:",
         "children":  [
@@ -1532,7 +1665,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -1541,7 +1677,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Cosmos DB",
         "title":  "Of all hours in a month, if you set provisioned RU/s T and use the full amount for 66% of the hours or more, it\u0027s estimated you\u0027ll save with standard (manual) provisioned RU/s. If you set autoscale max RU/s Tmax and use the full amount Tmax for 66% of the hours or less, it\u0027s estimated you\u0027ll save with autoscale.",
         "id":  "4b4996aa-e263-40fc-8374-8efc0bd8b8c5",
@@ -1550,7 +1685,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -1559,7 +1697,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Cosmos DB",
         "title":  "If multi-master option is enabled on Cosmos DB, it is important to understand [Conflict Types and Resolution Policies](https://docs.microsoft.com/azure/cosmos-db/conflict-resolution-policies).",
         "id":  "826332e4-2e50-486b-be10-1f6391810a65",
@@ -1568,7 +1705,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -1577,7 +1717,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Cosmos DB",
         "title":  "[Selecting a partition key](https://docs.microsoft.com/azure/cosmos-db/partitioning-overview#choose-partitionkey) is a simple, but very important design choice:",
         "children":  [
@@ -1608,7 +1747,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -1617,7 +1759,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Cosmos DB",
         "title":  "For query-intensive workloads, use Windows 64-bit instead of Linux or Windows 32-bit host processing.",
         "id":  "13308701-d668-4644-9a44-01b4a91ed52c",
@@ -1626,7 +1767,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -1635,7 +1779,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Cosmos DB",
         "title":  "If client is consuming more than 50,000 RU/s, there could be bottleneck due to machine capping out on CPU or network utilization. If you reach this point, it is recommended to scale out client applications across multiple servers.",
         "id":  "d33da1be-5671-4c8a-93aa-58777a9891dd",
@@ -1644,7 +1787,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -1653,7 +1799,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Cosmos DB",
         "title":  "Call [OpenAsync](https://docs.microsoft.com/dotnet/api/microsoft.azure.documents.client.documentclient.openasync?view=azure-dotnet) to avoid startup latency on first request.",
         "id":  "5b028a65-5655-4de3-8b5f-cbfbbf465894",
@@ -1662,7 +1807,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -1671,7 +1819,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Cosmos DB",
         "title":  "In order to avoid network latency, collocate client in same region as Cosmos DB.",
         "id":  "8e341782-16c1-44f0-b5ad-487558657cbb",
@@ -1680,7 +1827,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -1689,7 +1839,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Cosmos DB",
         "title":  "Increase the number of threads /tasks.",
         "id":  "1ce7b30b-6952-4a10-abb4-69c7e0cbbf72",
@@ -1698,7 +1847,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -1707,7 +1859,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Cosmos DB",
         "title":  "To reduce latency and CPU jitter, it is recommended to enable accelerated networking on client virtual machines both [Windows](https://docs.microsoft.com/azure/virtual-network/create-vm-accelerated-networking-powershell) and [Linux](https://docs.microsoft.com/azure/virtual-network/create-vm-accelerated-networking-cli).",
         "id":  "eeea0218-3edb-4a2d-b18e-708f49b1ea15",
@@ -1716,7 +1867,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -1725,7 +1879,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Cosmos DB",
         "title":  "Implement [retry logic](https://docs.microsoft.com/azure/architecture/best-practices/retry-service-specific#cosmos-db) in your client.",
         "id":  "739123c3-3ed6-4db1-b153-c9c6c2fe1aeb",
@@ -1734,7 +1887,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Design Considerations",
@@ -1743,7 +1899,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Azure Cache for Redis",
         "title":  "99.9% SLA for the cache endpoints and internet gateway will have connectivity",
         "id":  "5ec40908-d6d2-4875-81fb-b4f46f31db00",
@@ -1752,7 +1907,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Design Considerations",
@@ -1761,7 +1919,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Azure Cache for Redis",
         "title":  "SLA only covers Standard and Premium tier caches. Basic tier is not covered.",
         "context":  "[Azure Cache for Redis Service Level Agreements](https://azure.microsoft.com/support/legal/sla/cache/v1_0)",
@@ -1777,7 +1934,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -1786,7 +1946,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Azure Cache for Redis",
         "title":  "Basic - (Not recommended for production workloads) Single node, multiple sizes, ideal for development/test and non-critical workloads. The basic tier has no SLA.",
         "id":  "d6588141-b58a-4978-b209-2bda8e68dc6b",
@@ -1795,7 +1954,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -1804,7 +1966,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Azure Cache for Redis",
         "title":  "Standard - A replicated cache in a two node Primary/Secondary configuration managed by Microsoft, with a high availability SLA.",
         "id":  "b6a99a8e-1a75-4c52-a69a-01ef524a7b59",
@@ -1813,7 +1974,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -1822,7 +1986,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Azure Cache for Redis",
         "title":  "Premium - Includes all standard-tier features and including the following:",
         "children":  [
@@ -1865,7 +2028,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -1874,7 +2040,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Azure Cache for Redis",
         "title":  "Schedule Updates - Schedule the days and times that Redis Server updates will be applied to the cache. This does not include Azure updates or updates to the VM operating System.",
         "id":  "1eaa99c6-bc78-46f6-a52b-7ce0f548dc63",
@@ -1883,7 +2048,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -1892,7 +2060,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Azure Cache for Redis",
         "title":  "Monitor the cache and/or set alerts for exceptions, high CPU, high memory usage, server load and evicted keys for insights when to scale the cache. If the cache needs to be scaled, understanding when to scale is important because it will increase CPU during the scaling event to migrate data.",
         "id":  "9cd80bd9-c612-4f23-8d8d-a10e2c982f68",
@@ -1901,7 +2068,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -1910,7 +2080,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Azure Cache for Redis",
         "title":  "Deploying the cache inside of a VNET gives the customer more control over the traffic that is able to connect to the cache. Make sure that the subnet has sufficient address space available to deploy the cache nodes and shards (cluster).",
         "id":  "02574433-ba17-48bc-8c91-e9906a2cb618",
@@ -1919,7 +2088,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -1928,7 +2100,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Azure Cache for Redis",
         "title":  "Use one static or singleton implementation of the connection multiplexer to Redis and follow the [best practices guide](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-best-practices).",
         "id":  "b1d8be57-55a8-46f2-8ff1-afa7dadaeb73",
@@ -1937,7 +2108,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -1946,7 +2120,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Data",
         "subCategory":  "Azure Cache for Redis",
         "title":  "Review the [How to administer Azure Cache for Redis](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-administration#reboot) to understand how data loss can occur with cache reboots and how to test the application for resiliency.",
         "id":  "4a0ebb3b-7b18-4c9e-9ba1-76d03ce4cced",
@@ -1955,7 +2128,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Data"
+                     ]
     },
     {
         "type":  "Design Considerations",
@@ -1964,7 +2140,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Hybrid",
         "subCategory":  "Azure Stack Hub",
         "title":  "Microsoft does not provide an SLA for Azure Stack Hub because Microsoft does not have control over customer datacenter reliability, people, and processes.",
         "id":  "6028ceae-8207-4601-b30d-ff3ee045a1bb",
@@ -1973,7 +2148,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Hybrid"
+                     ]
     },
     {
         "type":  "Design Considerations",
@@ -1982,7 +2160,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Hybrid",
         "subCategory":  "Azure Stack Hub",
         "title":  "Azure Stack Hub currently only supports a single Scale Unit (SU) within in a single Region, which can consist of between 4 and 16 servers that use Hyper-V failover clustering; each region serves as an independent Azure Stack Hub \"stamp\" with separate portal and API endpoints.",
         "context":  "Azure Stack Hub does therefore **not support Availability Zones** as it currently consists only of a single \"region\" (aka a single physical location). High availability to cope with outages of a single location should be implemented by using two Azure Stack Hub instances deployed into different physical locations.",
@@ -1992,7 +2169,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Hybrid"
+                     ]
     },
     {
         "type":  "Configuration Recommendations",
@@ -2001,7 +2181,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Hybrid",
         "subCategory":  "Azure Stack Hub",
         "title":  "Treat Azure Stack Hub as a scale unit and deploy multiple instances to remove Azure Stack Hub as a single point of failure for encompassed workloads.",
         "children":  [
@@ -2016,7 +2195,10 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Hybrid"
+                     ]
     },
     {
         "type":  "Design Considerations",
@@ -2025,7 +2207,6 @@
                         "operationalexcellence"
                     ],
         "lens":  "service",
-        "category":  "Hybrid",
         "subCategory":  "Azure Stack Hub",
         "title":  "Apply general Azure configuration recommendations for all Azure Stack Hub services.",
         "id":  "e26f72b8-f176-44e7-aa38-2c7366ed0f9f",
@@ -2034,6 +2215,9 @@
                      "operationalexcellence",
                      "all"
                  ],
-        "priority":  "Medium"
+        "priority":  "Medium",
+        "category":  [
+                         "Hybrid"
+                     ]
     }
 ]
