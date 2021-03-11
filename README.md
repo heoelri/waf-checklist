@@ -1,13 +1,13 @@
 # The Azure Well-Architected Framework Checklist
 
-![Build and deploy on prod](https://github.com/lgmorand/aks-checklist/workflows/Build%20and%20deploy%20on%20prod/badge.svg) ![Last commit](https://img.shields.io/github/last-commit/lgmorand/aks-checklist.svg) ![License](https://img.shields.io/github/license/lgmorand/aks-checklist.svg)
+![Last commit](https://img.shields.io/github/last-commit/lgmorand/aks-checklist.svg) ![License](https://img.shields.io/github/license/lgmorand/aks-checklist.svg)
 
-Deployed version can be found here: [The Azure WAF Checklist](https://publicwafchecklist.z6.web.core.windows.net/)
-![AKS Checklist](https://raw.githubusercontent.com/lgmorand/aks-checklist/master/src/img/social/facebook-banner.jpg)
+Deployed version can be found here:
 
-The AKS Checklist is a (tentatively) exhaustive list of all elements you need to think of when preparing a cluster for production. It is based on all common best practices agreed around Kubernetes or documented [here](https://docs.microsoft.com/en-us/azure/aks/best-practices).
+* [The Azure WAF Checklist](https://publicwafchecklist.z6.web.core.windows.net/) - Production [![Build and deploy on prod](https://github.com/heoelri/waf-checklist/actions/workflows/buildanddeployprod.yml/badge.svg)](https://github.com/heoelri/waf-checklist/actions/workflows/buildanddeployprod.yml)
+* [The Azure WAF Checklist](https://stagingwafchecklist.z6.web.core.windows.net/) - Staging [![Build and deploy on staging](https://github.com/heoelri/waf-checklist/actions/workflows/buildanddeploystaging.yml/badge.svg)](https://github.com/heoelri/waf-checklist/actions/workflows/buildanddeploystaging.yml)
 
-Another good reading in another format is the [AKS baseline reference architecture](https://github.com/mspnp/aks-secure-baseline) 
+The Azure WAF Checklist is a (tentatively) exhaustive list of all elements you need to think of when preparing a cloud environment for production.
 
 ## How to contribute
 
