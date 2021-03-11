@@ -1,6 +1,6 @@
 # The Azure Well-Architected Framework Checklist
 
-![Last commit](https://img.shields.io/github/last-commit/lgmorand/aks-checklist.svg) ![License](https://img.shields.io/github/license/lgmorand/aks-checklist.svg)
+![Last commit](https://img.shields.io/github/last-commit/heoelri/waf-checklist.svg) ![License](https://img.shields.io/github/license/heoelri/waf-checklist.svg)
 
 Deployed version can be found here:
 
