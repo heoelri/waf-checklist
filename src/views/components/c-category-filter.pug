@@ -4,9 +4,13 @@
 //- Loop to save each category present in JSON into categoryFilter
 each item, i in locals._items
 
-  //- Check if the filter category already exist in the categoryFilter array
-  - if (categoryFilter.indexOf(item.category) === -1)
-    - categoryFilter.push(item.category)
+  each categoryList in item
+
+    each category in categoryList.category
+
+      //- Check if the filter category already exist in the categoryFilter array
+      - if (categoryFilter.indexOf(item.category) === -1)
+        - categoryFilter.push(item.category)
 
 
 //- Filter code implementation
